@@ -1,0 +1,108 @@
+{
+  "pages": {
+    "homepage": {
+      "originalWordsMatch": true,
+      "originalLinksMatch": true,
+      "words": 6176,
+      "links": 493,
+      "heading": "Maurizio Dècina",
+      "overflow": false,
+      "brokenImages": []
+    },
+    "decinabiography": {
+      "originalWordsMatch": true,
+      "originalLinksMatch": true,
+      "words": 1695,
+      "links": 0,
+      "heading": "Curriculum Vitae of Maurizio Dècina (4/2012)",
+      "overflow": false,
+      "brokenImages": []
+    },
+    "decinabiografia": {
+      "originalWordsMatch": true,
+      "originalLinksMatch": true,
+      "words": 1715,
+      "links": 0,
+      "heading": "Curriculum Vitae di Maurizio Dècina (4/2012)",
+      "overflow": false,
+      "brokenImages": []
+    },
+    "decinapublications": {
+      "originalWordsMatch": true,
+      "originalLinksMatch": true,
+      "words": 3654,
+      "links": 0,
+      "heading": "List of Selected Publications",
+      "overflow": false,
+      "brokenImages": []
+    }
+  },
+  "responsive": [
+    {
+      "width": 320,
+      "overflow": false,
+      "buttonsContained": true,
+      "heroHeight": 598.703125,
+      "portraitLoaded": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "buttonsContained": true,
+      "heroHeight": 593.1875,
+      "portraitLoaded": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "buttonsContained": true,
+      "heroHeight": 535,
+      "portraitLoaded": true
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "buttonsContained": true,
+      "heroHeight": 535,
+      "portraitLoaded": true
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "buttonsContained": true,
+      "heroHeight": 630,
+      "portraitLoaded": true
+    },
+    {
+      "width": 1536,
+      "overflow": false,
+      "buttonsContained": true,
+      "heroHeight": 631.28125,
+      "portraitLoaded": true
+    }
+  ],
+  "downloads": {
+    "checked": 483,
+    "failures": [],
+    "unavailableOriginal": [
+      "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-1.zip",
+      "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita e sicurezza 2010_Lez-1.zip",
+      "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/mobilita e sicurezza 2011_Lez-1.zip"
+    ],
+    "actualDownload": {
+      "filename": "decina keynote slide 2011.zip",
+      "passed": true
+    }
+  },
+  "interactions": {
+    "mobileMenu": true,
+    "escapeClosesMenu": true,
+    "italianNavigation": true,
+    "year": {
+      "hash": "#attivita-2001",
+      "active": "#attivita-2001",
+      "headingTop": 163.953125
+    }
+  },
+  "errors": []
+}

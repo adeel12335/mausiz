@@ -1,0 +1,15 @@
+# Dependencies and local tooling
+node_modules/
+__pycache__/
+*.pyc
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Local scratch output
+*.log

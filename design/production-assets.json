@@ -1,0 +1,15 @@
+{
+  "asset": "public/assets/maurizio-hero.png",
+  "mode": "imagegen photo background edit",
+  "prompt": "Use case: background-extraction / identity-preserve. Create a production website hero portrait asset from the original photo (image1) using the revised website mockup (image2) ONLY as the background/composition style reference. It is essential to preserve Maurizio's ORIGINAL identity, exact face, age, gray hair, round glasses, moustache, smile, dark suit, red tie, watch and ORIGINAL wrist-clasp pose. Do not redraw or beautify his face or change his expression; don't replace the man with a similar generated person. Remove the distracting original office background and replace it with the mockup's pale blue-gray #EEF2F5 background, sparse subtle thin network connections and a thin slanted gold #B59148 rule at the far left. Portrait of this same man from waist up, centered toward the right half of a landscape 1200x1100 asset so his head and both hands are fully included. Clean natural edges around hair and suit. Retain natural untinted skin and fabric, no color overlay, no blue tint over the face. High quality realistic photo extraction, not illustration. Background should blend with the pale gray website panel. Absolutely NO website text, captions, logos, labels, buttons, frames or typography anywhere. This is ONLY a clean standalone portrait/background asset for native HTML/CSS UI to overlay elsewhere.",
+  "references": [
+    "design/source-content/maurizio-original.jpg",
+    "design/01-homepage-v2.png"
+  ],
+  "originalUnchanged": "public/images/MD jpeg2.jpg",
+  "dimensions": {
+    "width": 1310,
+    "height": 1200
+  },
+  "notes": "Native HTML provides every visible website word and control. The generated image contains only the portrait and background."
+}

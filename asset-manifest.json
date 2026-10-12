@@ -1,0 +1,3422 @@
+{
+  "source": "https://mauriziodecina.it/",
+  "assets": [
+    {
+      "url": "https://mauriziodecina.it/images/MD jpeg2.jpg",
+      "path": "images/MD jpeg2.jpg",
+      "status": "downloaded",
+      "bytes": 163715,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/images/decina002.jpg",
+      "path": "images/decina002.jpg",
+      "status": "downloaded",
+      "bytes": 3206,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/images/is-2003-2004.JPG",
+      "path": "images/is-2003-2004.JPG",
+      "status": "downloaded",
+      "bytes": 1812285,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/Decina Trecordi pieee 1997.zip",
+      "path": "stuff/Decina Trecordi pieee 1997.zip",
+      "status": "downloaded",
+      "bytes": 291043,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/5_appello_critto_sicurezza_11_2_08.zip",
+      "path": "stuff/crittografia_sicurezza_2006/5_appello_critto_sicurezza_11_2_08.zip",
+      "status": "downloaded",
+      "bytes": 21332,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/AES standard - fips 197.zip",
+      "path": "stuff/crittografia_sicurezza_2006/AES standard - fips 197.zip",
+      "status": "downloaded",
+      "bytes": 155464,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/AES.zip",
+      "path": "stuff/crittografia_sicurezza_2006/AES.zip",
+      "status": "downloaded",
+      "bytes": 1208250,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Algoritmi-esempi.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Algoritmi-esempi.zip",
+      "status": "downloaded",
+      "bytes": 182518,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Avviso prove in itinere.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Avviso prove in itinere.zip",
+      "status": "downloaded",
+      "bytes": 11815,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Campi finiti marzo 07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Campi finiti marzo 07.zip",
+      "status": "downloaded",
+      "bytes": 879293,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Campi finiti.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Campi finiti.zip",
+      "status": "downloaded",
+      "bytes": 1154717,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Cifrari catena e DES.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Cifrari catena e DES.zip",
+      "status": "downloaded",
+      "bytes": 931458,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Condivisione del segreto.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Condivisione del segreto.zip",
+      "status": "downloaded",
+      "bytes": 139544,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Congruenze.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Congruenze.zip",
+      "status": "downloaded",
+      "bytes": 1113742,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Critografia e sicurezza delle reti.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Critografia e sicurezza delle reti.zip",
+      "status": "downloaded",
+      "bytes": 8268,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Crittografia a curve ellittiche.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Crittografia a curve ellittiche.zip",
+      "status": "downloaded",
+      "bytes": 679367,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Crittografia e sicurezza_2007.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Crittografia e sicurezza_2007.zip",
+      "status": "downloaded",
+      "bytes": 11962,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Curve ellittiche di caratteristica 2.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Curve ellittiche di caratteristica 2.zip",
+      "status": "downloaded",
+      "bytes": 597352,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Curve ellittiche-altri esempi.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Curve ellittiche-altri esempi.zip",
+      "status": "downloaded",
+      "bytes": 393888,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Curve ellittiche-esempio.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Curve ellittiche-esempio.zip",
+      "status": "downloaded",
+      "bytes": 360521,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Curve ellittiche.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Curve ellittiche.zip",
+      "status": "downloaded",
+      "bytes": 802043,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/DES standard FIPS.zip",
+      "path": "stuff/crittografia_sicurezza_2006/DES standard FIPS.zip",
+      "status": "downloaded",
+      "bytes": 52058,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/DSA standard - fips186-2-change1.zip",
+      "path": "stuff/crittografia_sicurezza_2006/DSA standard - fips186-2-change1.zip",
+      "status": "downloaded",
+      "bytes": 270329,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Fattorizzazione.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Fattorizzazione.zip",
+      "status": "downloaded",
+      "bytes": 487660,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Firme digitali.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Firme digitali.zip",
+      "status": "downloaded",
+      "bytes": 302097,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Funzioni hash.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Funzioni hash.zip",
+      "status": "downloaded",
+      "bytes": 534149,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Knapsack.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Knapsack.zip",
+      "status": "downloaded",
+      "bytes": 127200,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Logaritmi discreti.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Logaritmi discreti.zip",
+      "status": "downloaded",
+      "bytes": 819438,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Prof. Decina Lezioni di 'Crittografia e sicurezza' AA 2006-07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Prof. Decina Lezioni di 'Crittografia e sicurezza' AA 2006-07.zip",
+      "status": "downloaded",
+      "bytes": 4272,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Prof. Verticale Esercitazioni di 'Crittografia e sicurezza' AA 2006-07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Prof. Verticale Esercitazioni di 'Crittografia e sicurezza' AA 2006-07.zip",
+      "status": "downloaded",
+      "bytes": 3581,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Quesiti 1a prova critto_sicurezza_7_5_07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Quesiti 1a prova critto_sicurezza_7_5_07.zip",
+      "status": "downloaded",
+      "bytes": 17825,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Quesiti 2a prova 20_6_07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Quesiti 2a prova 20_6_07.zip",
+      "status": "downloaded",
+      "bytes": 18173,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Quesiti Crittografia_9_7_07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Quesiti Crittografia_9_7_07.zip",
+      "status": "downloaded",
+      "bytes": 23458,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Quesiti critto_sicurezza_24_9_07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Quesiti critto_sicurezza_24_9_07.zip",
+      "status": "downloaded",
+      "bytes": 24910,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Quesiti_25_7_07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Quesiti_25_7_07.zip",
+      "status": "downloaded",
+      "bytes": 22456,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/RSA e primalita.zip",
+      "path": "stuff/crittografia_sicurezza_2006/RSA e primalita.zip",
+      "status": "downloaded",
+      "bytes": 1006237,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Radici quadrate.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Radici quadrate.zip",
+      "status": "downloaded",
+      "bytes": 604732,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Risultati 5 appello_Crittografia e Sicurezza_11 febbraio 08.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Risultati 5 appello_Crittografia e Sicurezza_11 febbraio 08.zip",
+      "status": "downloaded",
+      "bytes": 6877,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Risultati Crittografia e Sicurezza 10 settembre 07 V 0.3.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Risultati Crittografia e Sicurezza 10 settembre 07 V 0.3.zip",
+      "status": "downloaded",
+      "bytes": 6963,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Risultati Crittografia e Sicurezza 24 settembre 07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Risultati Crittografia e Sicurezza 24 settembre 07.zip",
+      "status": "downloaded",
+      "bytes": 6509,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Risultati Crittografia e Sicurezza prima prova itinere 7-5-2007.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Risultati Crittografia e Sicurezza prima prova itinere 7-5-2007.zip",
+      "status": "downloaded",
+      "bytes": 20093,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Risultati Crittografia_9_7_2007.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Risultati Crittografia_9_7_2007.zip",
+      "status": "downloaded",
+      "bytes": 8783,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Risultati prove in itinere 20_6_2007.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Risultati prove in itinere 20_6_2007.zip",
+      "status": "downloaded",
+      "bytes": 11413,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Risultati_25_7_07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Risultati_25_7_07.zip",
+      "status": "downloaded",
+      "bytes": 9017,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Soluzioni 9-7-2007.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Soluzioni 9-7-2007.zip",
+      "status": "downloaded",
+      "bytes": 210792,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Soluzioni Critto 10 settembre 2007.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Soluzioni Critto 10 settembre 2007.zip",
+      "status": "downloaded",
+      "bytes": 284623,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Soluzioni Critto 11 febbraio2008.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Soluzioni Critto 11 febbraio2008.zip",
+      "status": "downloaded",
+      "bytes": 301105,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Soluzioni Crittografia prima prova 7 maggio 07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Soluzioni Crittografia prima prova 7 maggio 07.zip",
+      "status": "downloaded",
+      "bytes": 190305,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Soluzioni Quesiti 2a prova 20_06_07 .zip",
+      "path": "stuff/crittografia_sicurezza_2006/Soluzioni Quesiti 2a prova 20_06_07 .zip",
+      "status": "downloaded",
+      "bytes": 149684,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Soluzioni_25_7_07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Soluzioni_25_7_07.zip",
+      "status": "downloaded",
+      "bytes": 310718,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Soluzioni_critto_sicurezza 240907.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Soluzioni_critto_sicurezza 240907.zip",
+      "status": "downloaded",
+      "bytes": 876345,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Statistica prima prova 7_5_2007.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Statistica prima prova 7_5_2007.zip",
+      "status": "downloaded",
+      "bytes": 14017,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Tecniche a conoscenza zero.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Tecniche a conoscenza zero.zip",
+      "status": "downloaded",
+      "bytes": 680987,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/Verticale eserciziario.zip",
+      "path": "stuff/crittografia_sicurezza_2006/Verticale eserciziario.zip",
+      "status": "downloaded",
+      "bytes": 298515,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/cifrari classici.zip",
+      "path": "stuff/crittografia_sicurezza_2006/cifrari classici.zip",
+      "status": "downloaded",
+      "bytes": 707219,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/critto_sicurezza_10_9_07.zip",
+      "path": "stuff/crittografia_sicurezza_2006/critto_sicurezza_10_9_07.zip",
+      "status": "downloaded",
+      "bytes": 21724,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/divisibilita.zip",
+      "path": "stuff/crittografia_sicurezza_2006/divisibilita.zip",
+      "status": "downloaded",
+      "bytes": 585784,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/crittografia_sicurezza_2006/regole.zip",
+      "path": "stuff/crittografia_sicurezza_2006/regole.zip",
+      "status": "downloaded",
+      "bytes": 127210,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/decina keynote slide 2011.zip",
+      "path": "stuff/decina keynote slide 2011.zip",
+      "status": "downloaded",
+      "bytes": 2807203,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/decinabiografia.htm",
+      "path": "stuff/decinabiografia.htm",
+      "status": "page",
+      "bytes": 0
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/decinabiography.htm",
+      "path": "stuff/decinabiography.htm",
+      "status": "page",
+      "bytes": 0
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/decinapublications.htm",
+      "path": "stuff/decinapublications.htm",
+      "status": "page",
+      "bytes": 0
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/1_compitino-internet_sicurezza-Soluzioni10-11-2003.zip",
+      "path": "stuff/infrastrutture_sicurezza/1_compitino-internet_sicurezza-Soluzioni10-11-2003.zip",
+      "status": "downloaded",
+      "bytes": 159164,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/1_compitino-internet_sicurezza10-11-2003.zip",
+      "path": "stuff/infrastrutture_sicurezza/1_compitino-internet_sicurezza10-11-2003.zip",
+      "status": "downloaded",
+      "bytes": 122785,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/1_recupero-internet_sicurezza9-2-2004.zip",
+      "path": "stuff/infrastrutture_sicurezza/1_recupero-internet_sicurezza9-2-2004.zip",
+      "status": "downloaded",
+      "bytes": 249515,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/2_compitino-internet_sicurezza26-1-2004.zip",
+      "path": "stuff/infrastrutture_sicurezza/2_compitino-internet_sicurezza26-1-2004.zip",
+      "status": "downloaded",
+      "bytes": 138796,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/3_appello-internet_sicurezza6-9-2004.zip",
+      "path": "stuff/infrastrutture_sicurezza/3_appello-internet_sicurezza6-9-2004.zip",
+      "status": "downloaded",
+      "bytes": 114832,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Avviso_rifiuto1appello.zip",
+      "path": "stuff/infrastrutture_sicurezza/Avviso_rifiuto1appello.zip",
+      "status": "downloaded",
+      "bytes": 59167,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/DelMiglioEs-27-32.zip",
+      "path": "stuff/infrastrutture_sicurezza/DelMiglioEs-27-32.zip",
+      "status": "downloaded",
+      "bytes": 1461304,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Es-1-4-articolo-Needham.zip",
+      "path": "stuff/infrastrutture_sicurezza/Es-1-4-articolo-Needham.zip",
+      "status": "downloaded",
+      "bytes": 1215227,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Esercitazioni%2011-12-Cerri-Password.zip",
+      "path": "stuff/infrastrutture_sicurezza/Esercitazioni 11-12-Cerri-Password.zip",
+      "status": "downloaded",
+      "bytes": 278181,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Esercitazioni%2013-16-Decina-esercizi.zip",
+      "path": "stuff/infrastrutture_sicurezza/Esercitazioni 13-16-Decina-esercizi.zip",
+      "status": "downloaded",
+      "bytes": 1230495,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Esercitazioni%209-10-Decina-refresher.zip",
+      "path": "stuff/infrastrutture_sicurezza/Esercitazioni 9-10-Decina-refresher.zip",
+      "status": "downloaded",
+      "bytes": 1256423,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Esercitazioni1-4-Verticale-Autenticazione.zip",
+      "path": "stuff/infrastrutture_sicurezza/Esercitazioni1-4-Verticale-Autenticazione.zip",
+      "status": "downloaded",
+      "bytes": 235049,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Esercitazioni5-8-Cerri-des-rc4-md5-sha1.zip",
+      "path": "stuff/infrastrutture_sicurezza/Esercitazioni5-8-Cerri-des-rc4-md5-sha1.zip",
+      "status": "downloaded",
+      "bytes": 371093,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-1.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-1.zip",
+      "status": "downloaded",
+      "bytes": 1217577,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-10.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-10.zip",
+      "status": "downloaded",
+      "bytes": 499738,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-2.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-2.zip",
+      "status": "downloaded",
+      "bytes": 1014922,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-3.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-3.zip",
+      "status": "downloaded",
+      "bytes": 695533,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-4.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-4.zip",
+      "status": "downloaded",
+      "bytes": 451208,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-5.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-5.zip",
+      "status": "downloaded",
+      "bytes": 449804,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-6.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-6.zip",
+      "status": "downloaded",
+      "bytes": 509463,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-7.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-7.zip",
+      "status": "downloaded",
+      "bytes": 541096,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-8.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-8.zip",
+      "status": "downloaded",
+      "bytes": 607487,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-9.zip",
+      "path": "stuff/infrastrutture_sicurezza/Internet_sicurezza2003Lez-9.zip",
+      "status": "downloaded",
+      "bytes": 1100008,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Modalita%20rifiuto.zip",
+      "path": "stuff/infrastrutture_sicurezza/Modalita rifiuto.zip",
+      "status": "downloaded",
+      "bytes": 2557,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Programma_Internet_infrastrutture_sicurezza.zip",
+      "path": "stuff/infrastrutture_sicurezza/Programma_Internet_infrastrutture_sicurezza.zip",
+      "status": "downloaded",
+      "bytes": 83415,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Q1_Internet_9_febb_04.zip",
+      "path": "stuff/infrastrutture_sicurezza/Q1_Internet_9_febb_04.zip",
+      "status": "downloaded",
+      "bytes": 187046,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Q2_e_Q4secondocompitinoI_S-26-1-04.zip",
+      "path": "stuff/infrastrutture_sicurezza/Q2_e_Q4secondocompitinoI_S-26-1-04.zip",
+      "status": "downloaded",
+      "bytes": 92585,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Q3primoappelloI_S-9-2-2004.zip",
+      "path": "stuff/infrastrutture_sicurezza/Q3primoappelloI_S-9-2-2004.zip",
+      "status": "downloaded",
+      "bytes": 54625,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Q3secondocompitinoI_S-26-1-04.zip",
+      "path": "stuff/infrastrutture_sicurezza/Q3secondocompitinoI_S-26-1-04.zip",
+      "status": "downloaded",
+      "bytes": 92676,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Q4primoappelloI_S-9-2-2004.zip",
+      "path": "stuff/infrastrutture_sicurezza/Q4primoappelloI_S-9-2-2004.zip",
+      "status": "downloaded",
+      "bytes": 76093,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Risultati%20Internet%206%20sett.%2004.zip",
+      "path": "stuff/infrastrutture_sicurezza/Risultati Internet 6 sett. 04.zip",
+      "status": "downloaded",
+      "bytes": 54322,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/RisultatiCompitiniInternet_Sicurezza04.zip",
+      "path": "stuff/infrastrutture_sicurezza/RisultatiCompitiniInternet_Sicurezza04.zip",
+      "status": "downloaded",
+      "bytes": 63998,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/RisultatiInternet-8-7-04.zip",
+      "path": "stuff/infrastrutture_sicurezza/RisultatiInternet-8-7-04.zip",
+      "status": "downloaded",
+      "bytes": 66916,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/RisultatiInternet-9-2-04.zip",
+      "path": "stuff/infrastrutture_sicurezza/RisultatiInternet-9-2-04.zip",
+      "status": "downloaded",
+      "bytes": 71652,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/RisultatiInternet1_compitino10-11-03.zip",
+      "path": "stuff/infrastrutture_sicurezza/RisultatiInternet1_compitino10-11-03.zip",
+      "status": "downloaded",
+      "bytes": 81066,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Semeria.zip",
+      "path": "stuff/infrastrutture_sicurezza/Semeria.zip",
+      "status": "downloaded",
+      "bytes": 124745,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/Soluzione%20Q4.zip",
+      "path": "stuff/infrastrutture_sicurezza/Soluzione Q4.zip",
+      "status": "downloaded",
+      "bytes": 58799,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/VerticaleEs-17-18-Indirizzi%20IP.zip",
+      "path": "stuff/infrastrutture_sicurezza/VerticaleEs-17-18-Indirizzi IP.zip",
+      "status": "downloaded",
+      "bytes": 230555,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/VerticaleEs-19-20-Indirizzi%20IP.zip",
+      "path": "stuff/infrastrutture_sicurezza/VerticaleEs-19-20-Indirizzi IP.zip",
+      "status": "downloaded",
+      "bytes": 180747,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/VerticaleEs-21-22-TCP.zip",
+      "path": "stuff/infrastrutture_sicurezza/VerticaleEs-21-22-TCP.zip",
+      "status": "downloaded",
+      "bytes": 154527,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/VerticaleEs-23-24-Grafi.zip",
+      "path": "stuff/infrastrutture_sicurezza/VerticaleEs-23-24-Grafi.zip",
+      "status": "downloaded",
+      "bytes": 247977,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/VerticaleEs-25-26-OSPF.zip",
+      "path": "stuff/infrastrutture_sicurezza/VerticaleEs-25-26-OSPF.zip",
+      "status": "downloaded",
+      "bytes": 222180,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/concatenazioniDES.zip",
+      "path": "stuff/infrastrutture_sicurezza/concatenazioniDES.zip",
+      "status": "downloaded",
+      "bytes": 124028,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/regole.zip",
+      "path": "stuff/infrastrutture_sicurezza/regole.zip",
+      "status": "downloaded",
+      "bytes": 90428,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/statistica-compitini04.zip",
+      "path": "stuff/infrastrutture_sicurezza/statistica-compitini04.zip",
+      "status": "downloaded",
+      "bytes": 21063,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza/verifica%20compitino.zip",
+      "path": "stuff/infrastrutture_sicurezza/verifica compitino.zip",
+      "status": "downloaded",
+      "bytes": 44778,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/1 - Indirizzi IP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/1 - Indirizzi IP.zip",
+      "status": "downloaded",
+      "bytes": 138470,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/1compitino-internet e sicurezza21-11-2005.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/1compitino-internet e sicurezza21-11-2005.zip",
+      "status": "downloaded",
+      "bytes": 62228,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/2 - Indirizzi IP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/2 - Indirizzi IP.zip",
+      "status": "downloaded",
+      "bytes": 116183,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/2appello-internet e sicurezza_6_7_2006_MilanoComo.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/2appello-internet e sicurezza_6_7_2006_MilanoComo.zip",
+      "status": "downloaded",
+      "bytes": 45729,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/2compitino-internet e sicurezza_6-2-2006.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/2compitino-internet e sicurezza_6-2-2006.zip",
+      "status": "downloaded",
+      "bytes": 57217,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Attivita didattica 2005-2006.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Attivita didattica 2005-2006.zip",
+      "status": "downloaded",
+      "bytes": 4279,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Birthday Attack.pdf",
+      "path": "stuff/infrastrutture_sicurezza_2005/Birthday Attack.pdf",
+      "status": "downloaded",
+      "bytes": 85119,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Campi_Finiti_AES.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Campi_Finiti_AES.zip",
+      "status": "downloaded",
+      "bytes": 1934410,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Concatenazioni-DES.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Concatenazioni-DES.zip",
+      "status": "downloaded",
+      "bytes": 105000,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Decina-EserciziCrittografia.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Decina-EserciziCrittografia.zip",
+      "status": "downloaded",
+      "bytes": 1296874,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/EsNo1-4_Forzieri_Autenticazione.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/EsNo1-4_Forzieri_Autenticazione.zip",
+      "status": "downloaded",
+      "bytes": 2029561,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Esempi_ospf_bgp.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Esempi_ospf_bgp.zip",
+      "status": "downloaded",
+      "bytes": 88139,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Esercitazioni su Firewall_Del Miglio.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Esercitazioni su Firewall_Del Miglio.zip",
+      "status": "downloaded",
+      "bytes": 1220433,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Esercizazioni_su_ IPsec_Forzieri.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Esercizazioni_su_ IPsec_Forzieri.zip",
+      "status": "downloaded",
+      "bytes": 612429,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "status": "downloaded",
+      "bytes": 1497141,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Foto_corso_2005-06.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Foto_corso_2005-06.zip",
+      "status": "downloaded",
+      "bytes": 4388656,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Grafi.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Grafi.zip",
+      "status": "downloaded",
+      "bytes": 297244,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_Richiami_di_aritmetica_modulare.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_Richiami_di_aritmetica_modulare.zip",
+      "status": "downloaded",
+      "bytes": 725107,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-1.zip",
+      "status": "downloaded",
+      "bytes": 3171792,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-10.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-10.zip",
+      "status": "downloaded",
+      "bytes": 286727,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-2.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-2.zip",
+      "status": "downloaded",
+      "bytes": 643188,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-3.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-3.zip",
+      "status": "downloaded",
+      "bytes": 442366,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-4.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-4.zip",
+      "status": "downloaded",
+      "bytes": 232608,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-5.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-5.zip",
+      "status": "downloaded",
+      "bytes": 166024,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-6.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-6.zip",
+      "status": "downloaded",
+      "bytes": 188101,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-7.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-7.zip",
+      "status": "downloaded",
+      "bytes": 224979,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-8.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-8.zip",
+      "status": "downloaded",
+      "bytes": 359066,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-9.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005Lez-9.zip",
+      "status": "downloaded",
+      "bytes": 608173,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005MobileIP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Internet_sicurezza2005MobileIP.zip",
+      "status": "downloaded",
+      "bytes": 36894,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/MITMAttack.pdf",
+      "path": "stuff/infrastrutture_sicurezza_2005/MITMAttack.pdf",
+      "status": "downloaded",
+      "bytes": 11271,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/OSPF.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/OSPF.zip",
+      "status": "downloaded",
+      "bytes": 232773,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Programma_Internet_infrastrutture_e_sicurezza.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Programma_Internet_infrastrutture_e_sicurezza.zip",
+      "status": "downloaded",
+      "bytes": 11569,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Q1-2-3 prima prova 21 nov 05.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Q1-2-3 prima prova 21 nov 05.zip",
+      "status": "downloaded",
+      "bytes": 219846,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/RFC_IPsec_dec_2005.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/RFC_IPsec_dec_2005.zip",
+      "status": "downloaded",
+      "bytes": 386159,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Radici_primitive.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Radici_primitive.zip",
+      "status": "downloaded",
+      "bytes": 137528,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Risultati Internet e sicurezza 1a e 2a prova_6_2_06.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Risultati Internet e sicurezza 1a e 2a prova_6_2_06.zip",
+      "status": "downloaded",
+      "bytes": 12377,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Risultati Internet e sicurezza prima prova 21-11-05 .zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Risultati Internet e sicurezza prima prova 21-11-05 .zip",
+      "status": "downloaded",
+      "bytes": 23177,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Risultati Internet e sicurezza_2appello_6_7_06_MIlanoComo.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Risultati Internet e sicurezza_2appello_6_7_06_MIlanoComo.zip",
+      "status": "downloaded",
+      "bytes": 6889,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Risultati Sicurezza delle reti Internet Como 21-11-05 .zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Risultati Sicurezza delle reti Internet Como 21-11-05 .zip",
+      "status": "downloaded",
+      "bytes": 14619,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Semeria.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Semeria.zip",
+      "status": "downloaded",
+      "bytes": 124745,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Soluzioni_Q1-3-4_2compitino-internet e sicurezza_6-2-2006.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Soluzioni_Q1-3-4_2compitino-internet e sicurezza_6-2-2006.zip",
+      "status": "downloaded",
+      "bytes": 37400,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/Statistica91 compitini_05-06.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/Statistica91 compitini_05-06.zip",
+      "status": "downloaded",
+      "bytes": 5768,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/TCP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/TCP.zip",
+      "status": "downloaded",
+      "bytes": 287951,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/agenda delle lezioni su internet infrastrutture e sicurezza_2005_06.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/agenda delle lezioni su internet infrastrutture e sicurezza_2005_06.zip",
+      "status": "downloaded",
+      "bytes": 10023,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/esercitazioni su internet infrastrastrutture e sicurezza_2005_06.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/esercitazioni su internet infrastrastrutture e sicurezza_2005_06.zip",
+      "status": "downloaded",
+      "bytes": 6449,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/quesiti_1_appello-internet e sicurezza_20-2-2006_Como.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/quesiti_1_appello-internet e sicurezza_20-2-2006_Como.zip",
+      "status": "downloaded",
+      "bytes": 61912,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/quesiti_1_appello-internet e sicurezza_20-2-2006_Milano.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/quesiti_1_appello-internet e sicurezza_20-2-2006_Milano.zip",
+      "status": "downloaded",
+      "bytes": 32667,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/regole.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/regole.zip",
+      "status": "downloaded",
+      "bytes": 77802,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/risultati Internet e sicurezza_1appello_20_2_06_Milano.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/risultati Internet e sicurezza_1appello_20_2_06_Milano.zip",
+      "status": "downloaded",
+      "bytes": 8327,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/risultati Sicurezza delle reti Internet Como 20-2-06 .zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/risultati Sicurezza delle reti Internet Como 20-2-06 .zip",
+      "status": "downloaded",
+      "bytes": 6058,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/statisticaprimaprova2005.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/statisticaprimaprova2005.zip",
+      "status": "downloaded",
+      "bytes": 5995,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2005/verifica prima prova.zip",
+      "path": "stuff/infrastrutture_sicurezza_2005/verifica prima prova.zip",
+      "status": "downloaded",
+      "bytes": 4004,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/1 - Indirizzi IP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/1 - Indirizzi IP.zip",
+      "status": "downloaded",
+      "bytes": 200585,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/2 - TCP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/2 - TCP.zip",
+      "status": "downloaded",
+      "bytes": 253173,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/2compitino-internet e sicurezza_5-2-2007.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/2compitino-internet e sicurezza_5-2-2007.zip",
+      "status": "downloaded",
+      "bytes": 74137,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/3 - Grafi.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/3 - Grafi.zip",
+      "status": "downloaded",
+      "bytes": 211149,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/4 - OSPF.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/4 - OSPF.zip",
+      "status": "downloaded",
+      "bytes": 184607,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/5 - Temi esame.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/5 - Temi esame.zip",
+      "status": "downloaded",
+      "bytes": 194627,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Altri_esercizi_2006.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Altri_esercizi_2006.zip",
+      "status": "downloaded",
+      "bytes": 1016049,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Altri_esercizi_2006_2.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Altri_esercizi_2006_2.zip",
+      "status": "downloaded",
+      "bytes": 282841,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Birthday Attack.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Birthday Attack.zip",
+      "status": "downloaded",
+      "bytes": 77185,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Concatenazioni-DES.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Concatenazioni-DES.zip",
+      "status": "downloaded",
+      "bytes": 105000,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Criteri di assegnazione tesine.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Criteri di assegnazione tesine.zip",
+      "status": "downloaded",
+      "bytes": 2903,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Crypto Toolkit.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Crypto Toolkit.zip",
+      "status": "downloaded",
+      "bytes": 243137,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/DES By William Stallings.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/DES By William Stallings.zip",
+      "status": "downloaded",
+      "bytes": 12083,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Decina- EserciziCrittografia.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Decina- EserciziCrittografia.zip",
+      "status": "downloaded",
+      "bytes": 2216335,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Esercitazioni su Firewall1_Del Miglio.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Esercitazioni su Firewall1_Del Miglio.zip",
+      "status": "downloaded",
+      "bytes": 1221825,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Esercitazioni_su_IPSec_Forzieric.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Esercitazioni_su_IPSec_Forzieric.zip",
+      "status": "downloaded",
+      "bytes": 612751,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Forzieri - Es1 - Autenticazione.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Forzieri - Es1 - Autenticazione.zip",
+      "status": "downloaded",
+      "bytes": 3414249,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "status": "downloaded",
+      "bytes": 2231209,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Forzieri - IPsec - Es1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Forzieri - IPsec - Es1.zip",
+      "status": "downloaded",
+      "bytes": 120354,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Foto_corso_2006-2007.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Foto_corso_2006-2007.zip",
+      "status": "downloaded",
+      "bytes": 3065959,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Hashing.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Hashing.zip",
+      "status": "downloaded",
+      "bytes": 300070,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Hashing_2.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Hashing_2.zip",
+      "status": "downloaded",
+      "bytes": 406491,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Icompitino-internet e sicurezza20-11-2006.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Icompitino-internet e sicurezza20-11-2006.zip",
+      "status": "downloaded",
+      "bytes": 25634,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet 2a prova e Finale 5-2-07.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet 2a prova e Finale 5-2-07.zip",
+      "status": "downloaded",
+      "bytes": 10537,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet prova itinere 20-11-06.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet prova itinere 20-11-06.zip",
+      "status": "downloaded",
+      "bytes": 32551,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-1.zip",
+      "status": "downloaded",
+      "bytes": 3821619,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-10.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-10.zip",
+      "status": "downloaded",
+      "bytes": 285859,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-2.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-2.zip",
+      "status": "downloaded",
+      "bytes": 646423,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-3.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-3.zip",
+      "status": "downloaded",
+      "bytes": 560088,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-4.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-4.zip",
+      "status": "downloaded",
+      "bytes": 871530,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-5.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-5.zip",
+      "status": "downloaded",
+      "bytes": 236191,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-6.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-6.zip",
+      "status": "downloaded",
+      "bytes": 258514,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-7.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-7.zip",
+      "status": "downloaded",
+      "bytes": 277101,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-8.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-8.zip",
+      "status": "downloaded",
+      "bytes": 462607,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-9.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Internet&sicurezza2006Lez-9.zip",
+      "status": "downloaded",
+      "bytes": 769066,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Kurose_Ross_Chapter2_sep_20_05.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Kurose_Ross_Chapter2_sep_20_05.zip",
+      "status": "downloaded",
+      "bytes": 665887,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/MITMAttack.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/MITMAttack.zip",
+      "status": "downloaded",
+      "bytes": 6845,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Programma corso Internet infrastrutture e sicurezza_2006.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Programma corso Internet infrastrutture e sicurezza_2006.zip",
+      "status": "downloaded",
+      "bytes": 11719,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Quesiti 2o appello-internet_3-7-2007_Milano.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Quesiti 2o appello-internet_3-7-2007_Milano.zip",
+      "status": "downloaded",
+      "bytes": 32098,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Quesiti 2o appello-sicurezza_3-7-2007_Como.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Quesiti 2o appello-sicurezza_3-7-2007_Como.zip",
+      "status": "downloaded",
+      "bytes": 22424,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Quesiti Iappello-internet e sicurezza_19-2-2007_Milano.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Quesiti Iappello-internet e sicurezza_19-2-2007_Milano.zip",
+      "status": "downloaded",
+      "bytes": 43353,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Quesiti Iappello-sicurezza_20-2-2006_Como.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Quesiti Iappello-sicurezza_20-2-2006_Como.zip",
+      "status": "downloaded",
+      "bytes": 22655,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Richiami di aritmetica modulare.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Richiami di aritmetica modulare.zip",
+      "status": "downloaded",
+      "bytes": 485909,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Risultati I Appello Internet Milano 19-02-07.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Risultati I Appello Internet Milano 19-02-07.zip",
+      "status": "downloaded",
+      "bytes": 9147,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Risultati I Appello Sicurezza delle Reti Como 19-02-07.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Risultati I Appello Sicurezza delle Reti Como 19-02-07.zip",
+      "status": "downloaded",
+      "bytes": 6023,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Risultati Internet_3_7_2007_Milano.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Risultati Internet_3_7_2007_Milano.zip",
+      "status": "downloaded",
+      "bytes": 6556,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Risultati Sicurezza_3_7_2007_Como .zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Risultati Sicurezza_3_7_2007_Como .zip",
+      "status": "downloaded",
+      "bytes": 5658,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Semeria.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Semeria.zip",
+      "status": "downloaded",
+      "bytes": 124673,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Sicurezza delle reti Como 20-11-06.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Sicurezza delle reti Como 20-11-06.zip",
+      "status": "downloaded",
+      "bytes": 16952,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Soluzioni 3-7-2007.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Soluzioni 3-7-2007.zip",
+      "status": "downloaded",
+      "bytes": 207716,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Soluzioni quesiti 20-11-06.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Soluzioni quesiti 20-11-06.zip",
+      "status": "downloaded",
+      "bytes": 198920,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Soluzioni_19_2_2007.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Soluzioni_19_2_2007.zip",
+      "status": "downloaded",
+      "bytes": 408196,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Soluzioni_5_2_2007.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Soluzioni_5_2_2007.zip",
+      "status": "downloaded",
+      "bytes": 20296,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/Video_Corso_2006_2007.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/Video_Corso_2006_2007.zip",
+      "status": "downloaded",
+      "bytes": 5063644,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/W.Stallings_Ch.12+.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/W.Stallings_Ch.12+.zip",
+      "status": "downloaded",
+      "bytes": 339361,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/esercitazioni su internet infrastrastrutture e sicurezza_2006 - 2007.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/esercitazioni su internet infrastrastrutture e sicurezza_2006 - 2007.zip",
+      "status": "downloaded",
+      "bytes": 10157,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/lezioni su internet infrastrutture e sicurezza_2006_07.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/lezioni su internet infrastrutture e sicurezza_2006_07.zip",
+      "status": "downloaded",
+      "bytes": 16698,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/regole.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/regole.zip",
+      "status": "downloaded",
+      "bytes": 77657,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/statistica.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/statistica.zip",
+      "status": "downloaded",
+      "bytes": 5864,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2006/volontari_ 2a prova 5-2-07.zip",
+      "path": "stuff/infrastrutture_sicurezza_2006/volontari_ 2a prova 5-2-07.zip",
+      "status": "downloaded",
+      "bytes": 5635,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/1appello-internet e sicurezza_25-2-2008_Milano.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/1appello-internet e sicurezza_25-2-2008_Milano.zip",
+      "status": "downloaded",
+      "bytes": 28968,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/1appello-sicurezza_25-2-2008_Como.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/1appello-sicurezza_25-2-2008_Como.zip",
+      "status": "downloaded",
+      "bytes": 26079,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/2compitino-internet e sicurezza_4-2-2008.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/2compitino-internet e sicurezza_4-2-2008.zip",
+      "status": "downloaded",
+      "bytes": 269583,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Del Miglio - Es1 - Firewall.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Del Miglio - Es1 - Firewall.zip",
+      "status": "downloaded",
+      "bytes": 417656,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Del Miglio - Es2 - Architetture di sicurezza e NAT.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Del Miglio - Es2 - Architetture di sicurezza e NAT.zip",
+      "status": "downloaded",
+      "bytes": 365241,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Esercitazioni internet infrastrutture e sicurezza 2007_2008.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Esercitazioni internet infrastrutture e sicurezza 2007_2008.zip",
+      "status": "downloaded",
+      "bytes": 11272,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Forzieri - Es1 - Autenticazione.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Forzieri - Es1 - Autenticazione.zip",
+      "status": "downloaded",
+      "bytes": 3049271,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "status": "downloaded",
+      "bytes": 2538357,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Forzieri_IPsec.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Forzieri_IPsec.zip",
+      "status": "downloaded",
+      "bytes": 622516,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Grafi.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Grafi.zip",
+      "status": "downloaded",
+      "bytes": 211309,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/I-compitino-internet e sicurezza19-11-2007.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/I-compitino-internet e sicurezza19-11-2007.zip",
+      "status": "downloaded",
+      "bytes": 69222,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Indirizzi IP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Indirizzi IP.zip",
+      "status": "downloaded",
+      "bytes": 200531,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet seconda prova e finale 4 febb 08.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet seconda prova e finale 4 febb 08.zip",
+      "status": "downloaded",
+      "bytes": 9764,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-1.zip",
+      "status": "downloaded",
+      "bytes": 8177692,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-2.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-2.zip",
+      "status": "downloaded",
+      "bytes": 541626,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-3.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-3.zip",
+      "status": "downloaded",
+      "bytes": 1138608,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-4.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-4.zip",
+      "status": "downloaded",
+      "bytes": 236064,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-5.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-5.zip",
+      "status": "downloaded",
+      "bytes": 257788,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-6.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-6.zip",
+      "status": "downloaded",
+      "bytes": 277004,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-7.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-7.zip",
+      "status": "downloaded",
+      "bytes": 465886,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-8.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-8.zip",
+      "status": "downloaded",
+      "bytes": 768893,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-9.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Internet&sicurezza2007Lez-9.zip",
+      "status": "downloaded",
+      "bytes": 285593,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Introduzione alla crittografia.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Introduzione alla crittografia.zip",
+      "status": "downloaded",
+      "bytes": 662663,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Kurose_Ross_Chapter2_sep_20_05.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Kurose_Ross_Chapter2_sep_20_05.zip",
+      "status": "downloaded",
+      "bytes": 665887,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Lezioni internet infrastrutture e sicurezza 2007_2008.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Lezioni internet infrastrutture e sicurezza 2007_2008.zip",
+      "status": "downloaded",
+      "bytes": 16085,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/OSPF.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/OSPF.zip",
+      "status": "downloaded",
+      "bytes": 184747,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Programma corso Internet infrastrutture e sicurezza_2007_08.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Programma corso Internet infrastrutture e sicurezza_2007_08.zip",
+      "status": "downloaded",
+      "bytes": 11663,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Quesiti 2 appello-internet e sicurezza_30-6-2008_Milano.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Quesiti 2 appello-internet e sicurezza_30-6-2008_Milano.zip",
+      "status": "downloaded",
+      "bytes": 40900,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Quesiti 2 appello-sicurezza_30-6-2008_Como.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Quesiti 2 appello-sicurezza_30-6-2008_Como.zip",
+      "status": "downloaded",
+      "bytes": 23885,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/RSA hash e firme.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/RSA hash e firme.zip",
+      "status": "downloaded",
+      "bytes": 2354400,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Risultati Como prova finale 19-11-07.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Risultati Como prova finale 19-11-07.zip",
+      "status": "downloaded",
+      "bytes": 14662,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Risultati Internet Infrastrutture e Sicurezza 2 appello 30 giugno 08v1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Risultati Internet Infrastrutture e Sicurezza 2 appello 30 giugno 08v1.zip",
+      "status": "downloaded",
+      "bytes": 3428,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Risultati Milano prima prova 19-11-07.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Risultati Milano prima prova 19-11-07.zip",
+      "status": "downloaded",
+      "bytes": 20292,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Risultati Sicurezza delle reti Internet 2 appello 30 giugno 08_v1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Risultati Sicurezza delle reti Internet 2 appello 30 giugno 08_v1.zip",
+      "status": "downloaded",
+      "bytes": 2866,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/S1_DES standard -fips 46-2.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/S1_DES standard -fips 46-2.zip",
+      "status": "downloaded",
+      "bytes": 52058,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/S3_DSA standard - fips186-2-change1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/S3_DSA standard - fips186-2-change1.zip",
+      "status": "downloaded",
+      "bytes": 270329,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Semeria.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Semeria.zip",
+      "status": "downloaded",
+      "bytes": 124673,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Soluzioni 25 2 2008.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Soluzioni 25 2 2008.zip",
+      "status": "downloaded",
+      "bytes": 968815,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Soluzioni seconda prova in itinere - Febbraio 2008.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Soluzioni seconda prova in itinere - Febbraio 2008.zip",
+      "status": "downloaded",
+      "bytes": 39005,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Soluzioni_Quesiti.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Soluzioni_Quesiti.zip",
+      "status": "downloaded",
+      "bytes": 805135,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Statistica Prima Prova 2007-2008.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Statistica Prima Prova 2007-2008.zip",
+      "status": "downloaded",
+      "bytes": 40368,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/TCP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/TCP.zip",
+      "status": "downloaded",
+      "bytes": 253187,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Temi esame.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Temi esame.zip",
+      "status": "downloaded",
+      "bytes": 194613,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Voti Internet - MI 25 febbraio 08 primo appello.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Voti Internet - MI 25 febbraio 08 primo appello.zip",
+      "status": "downloaded",
+      "bytes": 4590,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/Voti Sicurezza delle reti - Como 25 febbraio 08 - primo appello.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/Voti Sicurezza delle reti - Como 25 febbraio 08 - primo appello.zip",
+      "status": "downloaded",
+      "bytes": 3148,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/cifrari a blocchi e a catena.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/cifrari a blocchi e a catena.zip",
+      "status": "downloaded",
+      "bytes": 2447589,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/esercitazioni_1_decina.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/esercitazioni_1_decina.zip",
+      "status": "downloaded",
+      "bytes": 1826067,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/esercitazioni_2_decina.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/esercitazioni_2_decina.zip",
+      "status": "downloaded",
+      "bytes": 2126319,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/esercizi FW.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/esercizi FW.zip",
+      "status": "downloaded",
+      "bytes": 2645693,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/refresher_aritmetica_modulare.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/refresher_aritmetica_modulare.zip",
+      "status": "downloaded",
+      "bytes": 2450214,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/regole.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/regole.zip",
+      "status": "downloaded",
+      "bytes": 77647,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2007/tesine 4 marzo 2008.zip",
+      "path": "stuff/infrastrutture_sicurezza_2007/tesine 4 marzo 2008.zip",
+      "status": "downloaded",
+      "bytes": 9854,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/1 - Indirizzi IP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/1 - Indirizzi IP.zip",
+      "status": "downloaded",
+      "bytes": 200531,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/1appello-internet e sicurezza_23-2-2009.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/1appello-internet e sicurezza_23-2-2009.zip",
+      "status": "downloaded",
+      "bytes": 83358,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/2 - TCP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/2 - TCP.zip",
+      "status": "downloaded",
+      "bytes": 253187,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/2o compitino-internet e sicurezza_2-2-2009.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/2o compitino-internet e sicurezza_2-2-2009.zip",
+      "status": "downloaded",
+      "bytes": 138212,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/3 - Grafi.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/3 - Grafi.zip",
+      "status": "downloaded",
+      "bytes": 211309,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/4 - OSPF.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/4 - OSPF.zip",
+      "status": "downloaded",
+      "bytes": 184747,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/5 - Temi esame.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/5 - Temi esame.zip",
+      "status": "downloaded",
+      "bytes": 194613,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Del Miglio - Es1 - Firewall.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Del Miglio - Es1 - Firewall.zip",
+      "status": "downloaded",
+      "bytes": 417656,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Del Miglio - Es2 - Architetture di sicurezza e NAT.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Del Miglio - Es2 - Architetture di sicurezza e NAT.zip",
+      "status": "downloaded",
+      "bytes": 365241,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Esercitazioni internet infrastrutture e sicurezza 2008_2009_finale.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Esercitazioni internet infrastrutture e sicurezza 2008_2009_finale.zip",
+      "status": "downloaded",
+      "bytes": 13969,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Forzieri - Es1 - Autenticazione.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Forzieri - Es1 - Autenticazione.zip",
+      "status": "downloaded",
+      "bytes": 3049271,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "status": "downloaded",
+      "bytes": 2538357,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Forzieri_IPsec.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Forzieri_IPsec.zip",
+      "status": "downloaded",
+      "bytes": 622516,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-1.zip",
+      "status": "downloaded",
+      "bytes": 9913235,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-2.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-2.zip",
+      "status": "downloaded",
+      "bytes": 733190,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-3.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-3.zip",
+      "status": "downloaded",
+      "bytes": 2917318,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-4.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-4.zip",
+      "status": "downloaded",
+      "bytes": 583127,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-5.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-5.zip",
+      "status": "downloaded",
+      "bytes": 404443,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-6.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-6.zip",
+      "status": "downloaded",
+      "bytes": 453953,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-7.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-7.zip",
+      "status": "downloaded",
+      "bytes": 1141491,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-8.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-8.zip",
+      "status": "downloaded",
+      "bytes": 1195734,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-9.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Internet&sicurezza2008Lez-9.zip",
+      "status": "downloaded",
+      "bytes": 389062,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Lezioni internet infrastrutture e sicurezza 2008_2009_finale.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Lezioni internet infrastrutture e sicurezza 2008_2009_finale.zip",
+      "status": "downloaded",
+      "bytes": 15797,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Programma.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Programma.zip",
+      "status": "downloaded",
+      "bytes": 11714,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Quesiti.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Quesiti.zip",
+      "status": "downloaded",
+      "bytes": 73226,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Risultati Internet 1 appello 23-02-2009.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Risultati Internet 1 appello 23-02-2009.zip",
+      "status": "downloaded",
+      "bytes": 9943,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Risultati prove intermedie_2008_2009.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Risultati prove intermedie_2008_2009.zip",
+      "status": "downloaded",
+      "bytes": 9373,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Risultati_Prova_Intermedia.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Risultati_Prova_Intermedia.zip",
+      "status": "downloaded",
+      "bytes": 21397,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Soluzioni primo appello Internet 23 febb 09.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Soluzioni primo appello Internet 23 febb 09.zip",
+      "status": "downloaded",
+      "bytes": 442382,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Soluzioni_2aprova_2_febbraio_2009.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Soluzioni_2aprova_2_febbraio_2009.zip",
+      "status": "downloaded",
+      "bytes": 424052,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Soluzioni_Quesiti.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Soluzioni_Quesiti.zip",
+      "status": "downloaded",
+      "bytes": 297589,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/Tesine febbraio 2009.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/Tesine febbraio 2009.zip",
+      "status": "downloaded",
+      "bytes": 42564,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/esercizi FW.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/esercizi FW.zip",
+      "status": "downloaded",
+      "bytes": 2645693,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2008/tesine marzo 2009.zip",
+      "path": "stuff/infrastrutture_sicurezza_2008/tesine marzo 2009.zip",
+      "status": "downloaded",
+      "bytes": 7184,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/1 - Indirizzi IP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/1 - Indirizzi IP.zip",
+      "status": "downloaded",
+      "bytes": 200531,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/1 compitino-internet e sicurezza16-11-2009.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/1 compitino-internet e sicurezza16-11-2009.zip",
+      "status": "downloaded",
+      "bytes": 67132,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/1appello-internet e sicurezza_15-2-2010.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/1appello-internet e sicurezza_15-2-2010.zip",
+      "status": "downloaded",
+      "bytes": 78227,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/2 - TCP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/2 - TCP.zip",
+      "status": "downloaded",
+      "bytes": 253187,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/2 compitino-internet e sicurezza_1-2-2010.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/2 compitino-internet e sicurezza_1-2-2010.zip",
+      "status": "downloaded",
+      "bytes": 274086,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/3 - Grafi.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/3 - Grafi.zip",
+      "status": "downloaded",
+      "bytes": 211309,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/4 - OSPF.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/4 - OSPF.zip",
+      "status": "downloaded",
+      "bytes": 184747,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/5 - Temi esame.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/5 - Temi esame.zip",
+      "status": "downloaded",
+      "bytes": 194613,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/AES standard - fips 197.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/AES standard - fips 197.zip",
+      "status": "downloaded",
+      "bytes": 155464,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/AES.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/AES.zip",
+      "status": "downloaded",
+      "bytes": 1118183,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Assegnazione tesine di I livello - AGGIORNAMENTO.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Assegnazione tesine di I livello - AGGIORNAMENTO.zip",
+      "status": "downloaded",
+      "bytes": 7007,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Assegnazione tesine di I livello feb 2010.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Assegnazione tesine di I livello feb 2010.zip",
+      "status": "downloaded",
+      "bytes": 19682,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/DES standard -fips 46-2.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/DES standard -fips 46-2.zip",
+      "status": "downloaded",
+      "bytes": 52058,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/DSA standard - fips186-2-change1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/DSA standard - fips186-2-change1.zip",
+      "status": "downloaded",
+      "bytes": 270329,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Del Miglio - Es1 - Firewall.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Del Miglio - Es1 - Firewall.zip",
+      "status": "downloaded",
+      "bytes": 417656,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Del Miglio - Es2 - Architetture di sicurezza e NAT.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Del Miglio - Es2 - Architetture di sicurezza e NAT.zip",
+      "status": "downloaded",
+      "bytes": 365241,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Esercitazioni internet infrastrutture e sicurezza 2009_2010.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Esercitazioni internet infrastrutture e sicurezza 2009_2010.zip",
+      "status": "downloaded",
+      "bytes": 13925,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Forzieri - Es1 - Autenticazione.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Forzieri - Es1 - Autenticazione.zip",
+      "status": "downloaded",
+      "bytes": 3049271,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Forzieri - Es2 - Autenticazione-Protocolli.zip",
+      "status": "downloaded",
+      "bytes": 2538357,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Forzieri_IPsec.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Forzieri_IPsec.zip",
+      "status": "downloaded",
+      "bytes": 622516,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-1.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-1.zip",
+      "status": "unavailable",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-2.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-2.zip",
+      "status": "downloaded",
+      "bytes": 732872,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-3.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-3.zip",
+      "status": "downloaded",
+      "bytes": 2836579,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-4.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-4.zip",
+      "status": "downloaded",
+      "bytes": 580560,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-5.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-5.zip",
+      "status": "downloaded",
+      "bytes": 404812,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-6.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-6.zip",
+      "status": "downloaded",
+      "bytes": 454937,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-7.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-7.zip",
+      "status": "downloaded",
+      "bytes": 1152688,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-8.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-8.zip",
+      "status": "downloaded",
+      "bytes": 1211373,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-9.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Internet&sicurezza2009Lez-9.zip",
+      "status": "downloaded",
+      "bytes": 388686,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Introduzione alla crittografia.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Introduzione alla crittografia.zip",
+      "status": "downloaded",
+      "bytes": 662663,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Lezioni internet infrastrutture e sicurezza 2009_2010.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Lezioni internet infrastrutture e sicurezza 2009_2010.zip",
+      "status": "downloaded",
+      "bytes": 14451,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Programma Internet infrastrutture e sicurezza_2009_10.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Programma Internet infrastrutture e sicurezza_2009_10.zip",
+      "status": "downloaded",
+      "bytes": 11697,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/RSA hash e firme.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/RSA hash e firme.zip",
+      "status": "downloaded",
+      "bytes": 2354400,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Risultati Internet e sicurezza_ primo appello 15-02-10.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Risultati Internet e sicurezza_ primo appello 15-02-10.zip",
+      "status": "downloaded",
+      "bytes": 7064,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Risultati Internet infrastrutture e sicurezza prima prova itinere 16-11-09.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Risultati Internet infrastrutture e sicurezza prima prova itinere 16-11-09.zip",
+      "status": "downloaded",
+      "bytes": 60694,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Risultati finali Internet 1a e 2a prova_1 febb 10.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Risultati finali Internet 1a e 2a prova_1 febb 10.zip",
+      "status": "downloaded",
+      "bytes": 9117,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Soluzioni prima prova intinere Internet infrastrutture e sicurezza 16 nov 09.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Soluzioni prima prova intinere Internet infrastrutture e sicurezza 16 nov 09.zip",
+      "status": "downloaded",
+      "bytes": 418581,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Soluzioni_15_2_2010.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Soluzioni_15_2_2010.zip",
+      "status": "downloaded",
+      "bytes": 500364,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/Verticale_Quesiti_Indirizzi_IP.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/Verticale_Quesiti_Indirizzi_IP.zip",
+      "status": "downloaded",
+      "bytes": 76984,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/cifrari a blocchi e a catena.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/cifrari a blocchi e a catena.zip",
+      "status": "downloaded",
+      "bytes": 2447589,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/esercitazioni_1_decina.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/esercitazioni_1_decina.zip",
+      "status": "downloaded",
+      "bytes": 1826067,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/esercitazioni_2_decina.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/esercitazioni_2_decina.zip",
+      "status": "downloaded",
+      "bytes": 2126319,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/esercizi FW.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/esercizi FW.zip",
+      "status": "downloaded",
+      "bytes": 2645693,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/refresher_aritmetica_modulare.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/refresher_aritmetica_modulare.zip",
+      "status": "downloaded",
+      "bytes": 2450214,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/infrastrutture_sicurezza_2009/soluzioni_1_2_2010.zip",
+      "path": "stuff/infrastrutture_sicurezza_2009/soluzioni_1_2_2010.zip",
+      "status": "downloaded",
+      "bytes": 277885,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/2recuperoInternet_12-9-03.zip",
+      "path": "stuff/internet_pdf_on-line/2recuperoInternet_12-9-03.zip",
+      "status": "downloaded",
+      "bytes": 128635,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/2recuperointernetQ4_12-9-03.zip",
+      "path": "stuff/internet_pdf_on-line/2recuperointernetQ4_12-9-03.zip",
+      "status": "downloaded",
+      "bytes": 49612,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/DecinaEs-6-crypto.zip",
+      "path": "stuff/internet_pdf_on-line/DecinaEs-6-crypto.zip",
+      "status": "downloaded",
+      "bytes": 461471,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Figure%20Comer.zip",
+      "path": "stuff/internet_pdf_on-line/Figure Comer.zip",
+      "status": "downloaded",
+      "bytes": 311537,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Internet2003Lez-0.zip",
+      "path": "stuff/internet_pdf_on-line/Internet2003Lez-0.zip",
+      "status": "downloaded",
+      "bytes": 2579112,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Internet2003Lez-1.zip",
+      "path": "stuff/internet_pdf_on-line/Internet2003Lez-1.zip",
+      "status": "downloaded",
+      "bytes": 983183,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Internet2003Lez-2.zip",
+      "path": "stuff/internet_pdf_on-line/Internet2003Lez-2.zip",
+      "status": "downloaded",
+      "bytes": 635071,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Internet2003Lez-3.zip",
+      "path": "stuff/internet_pdf_on-line/Internet2003Lez-3.zip",
+      "status": "downloaded",
+      "bytes": 749171,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Internet2003Lez-4.zip",
+      "path": "stuff/internet_pdf_on-line/Internet2003Lez-4.zip",
+      "status": "downloaded",
+      "bytes": 759062,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Internet2003Lez-5.zip",
+      "path": "stuff/internet_pdf_on-line/Internet2003Lez-5.zip",
+      "status": "downloaded",
+      "bytes": 842396,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Internet2003Lez-6.zip",
+      "path": "stuff/internet_pdf_on-line/Internet2003Lez-6.zip",
+      "status": "downloaded",
+      "bytes": 1573985,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Internet2003Lez-7.zip",
+      "path": "stuff/internet_pdf_on-line/Internet2003Lez-7.zip",
+      "status": "downloaded",
+      "bytes": 1234632,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Risultati1_2compInternet4-7-03.zip",
+      "path": "stuff/internet_pdf_on-line/Risultati1_2compInternet4-7-03.zip",
+      "status": "downloaded",
+      "bytes": 68197,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Risultati1compInt-8-5-03.zip",
+      "path": "stuff/internet_pdf_on-line/Risultati1compInt-8-5-03.zip",
+      "status": "downloaded",
+      "bytes": 68115,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Risultati2RecupInternet_12-9-03.zip",
+      "path": "stuff/internet_pdf_on-line/Risultati2RecupInternet_12-9-03.zip",
+      "status": "downloaded",
+      "bytes": 44555,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/RisultatiSic1comp-9-5-03.zip",
+      "path": "stuff/internet_pdf_on-line/RisultatiSic1comp-9-5-03.zip",
+      "status": "downloaded",
+      "bytes": 80124,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/RisultatiSicur-recupero29-7-03.pdf",
+      "path": "stuff/internet_pdf_on-line/RisultatiSicur-recupero29-7-03.pdf",
+      "status": "downloaded",
+      "bytes": 52426,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/RisultatiitinerInternet4-7-03.zip",
+      "path": "stuff/internet_pdf_on-line/RisultatiitinerInternet4-7-03.zip",
+      "status": "downloaded",
+      "bytes": 49395,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/RisultatireclugInternet-18-7-03.zip",
+      "path": "stuff/internet_pdf_on-line/RisultatireclugInternet-18-7-03.zip",
+      "status": "downloaded",
+      "bytes": 45361,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Semeria1.pdf",
+      "path": "stuff/internet_pdf_on-line/Semeria1.pdf",
+      "status": "downloaded",
+      "bytes": 68370,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Semeria2.pdf",
+      "path": "stuff/internet_pdf_on-line/Semeria2.pdf",
+      "status": "downloaded",
+      "bytes": 94369,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Semeria3.pdf",
+      "path": "stuff/internet_pdf_on-line/Semeria3.pdf",
+      "status": "downloaded",
+      "bytes": 57598,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Sicur-1compQ2_Q3-9-5-2003.zip",
+      "path": "stuff/internet_pdf_on-line/Sicur-1compQ2_Q3-9-5-2003.zip",
+      "status": "downloaded",
+      "bytes": 105432,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/Verticale-2recuperointernetQ3-12-9-03.zip",
+      "path": "stuff/internet_pdf_on-line/Verticale-2recuperointernetQ3-12-9-03.zip",
+      "status": "downloaded",
+      "bytes": 89868,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/VerticaleES1-IndirizziIP.zip",
+      "path": "stuff/internet_pdf_on-line/VerticaleES1-IndirizziIP.zip",
+      "status": "downloaded",
+      "bytes": 230443,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/VerticaleES2-IndirizziIP.zip",
+      "path": "stuff/internet_pdf_on-line/VerticaleES2-IndirizziIP.zip",
+      "status": "downloaded",
+      "bytes": 180689,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/VerticaleES3-TCP.zip",
+      "path": "stuff/internet_pdf_on-line/VerticaleES3-TCP.zip",
+      "status": "downloaded",
+      "bytes": 145874,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/VerticaleES4-AlgoritmiGrafi.zip",
+      "path": "stuff/internet_pdf_on-line/VerticaleES4-AlgoritmiGrafi.zip",
+      "status": "downloaded",
+      "bytes": 247994,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/VerticaleES5-OSPF.zip",
+      "path": "stuff/internet_pdf_on-line/VerticaleES5-OSPF.zip",
+      "status": "downloaded",
+      "bytes": 222198,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/fondamenticrypto.zip",
+      "path": "stuff/internet_pdf_on-line/fondamenticrypto.zip",
+      "status": "downloaded",
+      "bytes": 628250,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/primocomInternetQ3-8-5-03.zip",
+      "path": "stuff/internet_pdf_on-line/primocomInternetQ3-8-5-03.zip",
+      "status": "downloaded",
+      "bytes": 35513,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/primocompInternet8-5-03.zip",
+      "path": "stuff/internet_pdf_on-line/primocompInternet8-5-03.zip",
+      "status": "downloaded",
+      "bytes": 114720,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/primocompInternetQ2-8-5-03.zip",
+      "path": "stuff/internet_pdf_on-line/primocompInternetQ2-8-5-03.zip",
+      "status": "downloaded",
+      "bytes": 45365,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/programma%20Internet2003.zip",
+      "path": "stuff/internet_pdf_on-line/programma Internet2003.zip",
+      "status": "downloaded",
+      "bytes": 18463,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/recuperoInternet18-7-03.zip",
+      "path": "stuff/internet_pdf_on-line/recuperoInternet18-7-03.zip",
+      "status": "downloaded",
+      "bytes": 111430,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/recuperosicurQ1_2-29-7-03.pdf",
+      "path": "stuff/internet_pdf_on-line/recuperosicurQ1_2-29-7-03.pdf",
+      "status": "downloaded",
+      "bytes": 101636,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/recuperosicurezza29-7-03.pdf",
+      "path": "stuff/internet_pdf_on-line/recuperosicurezza29-7-03.pdf",
+      "status": "downloaded",
+      "bytes": 119401,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/recupluglioInternetQ3_4.zip",
+      "path": "stuff/internet_pdf_on-line/recupluglioInternetQ3_4.zip",
+      "status": "downloaded",
+      "bytes": 587827,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/regole.zip",
+      "path": "stuff/internet_pdf_on-line/regole.zip",
+      "status": "downloaded",
+      "bytes": 90462,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/rifiuto.zip",
+      "path": "stuff/internet_pdf_on-line/rifiuto.zip",
+      "status": "downloaded",
+      "bytes": 79884,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/rifiutoInternetluglio.zip",
+      "path": "stuff/internet_pdf_on-line/rifiutoInternetluglio.zip",
+      "status": "downloaded",
+      "bytes": 73608,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/rifiutointernetsettembre.zip",
+      "path": "stuff/internet_pdf_on-line/rifiutointernetsettembre.zip",
+      "status": "downloaded",
+      "bytes": 74944,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/secondcompInternet4-7-03.zip",
+      "path": "stuff/internet_pdf_on-line/secondcompInternet4-7-03.zip",
+      "status": "downloaded",
+      "bytes": 153217,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/secondcompInternetQ2-4-7-03.zip",
+      "path": "stuff/internet_pdf_on-line/secondcompInternetQ2-4-7-03.zip",
+      "status": "downloaded",
+      "bytes": 67925,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/secondocompInternetQ3-4-7-03.zip",
+      "path": "stuff/internet_pdf_on-line/secondocompInternetQ3-4-7-03.zip",
+      "status": "downloaded",
+      "bytes": 50303,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/internet_pdf_on-line/sicur-1comp03-9-5-2003.zip",
+      "path": "stuff/internet_pdf_on-line/sicur-1comp03-9-5-2003.zip",
+      "status": "downloaded",
+      "bytes": 96676,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/2 compitino-mobilita e sicurezza 11-2-2011.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/2 compitino-mobilita e sicurezza 11-2-2011.zip",
+      "status": "downloaded",
+      "bytes": 145783,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/AES standard - fips 197.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/AES standard - fips 197.zip",
+      "status": "downloaded",
+      "bytes": 155464,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/AES.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/AES.zip",
+      "status": "downloaded",
+      "bytes": 1118183,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Campi finiti.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Campi finiti.zip",
+      "status": "downloaded",
+      "bytes": 1154713,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Campi finiti2.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Campi finiti2.zip",
+      "status": "downloaded",
+      "bytes": 879273,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/DES standard -fips 46-2.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/DES standard -fips 46-2.zip",
+      "status": "downloaded",
+      "bytes": 52058,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/DSA standard - fips186-2-change1.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/DSA standard - fips186-2-change1.zip",
+      "status": "downloaded",
+      "bytes": 270329,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Del Miglio - Es1 - Firewall.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Del Miglio - Es1 - Firewall.zip",
+      "status": "downloaded",
+      "bytes": 417656,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Del Miglio - Es2 - NAT.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Del Miglio - Es2 - NAT.zip",
+      "status": "downloaded",
+      "bytes": 365241,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Esercitazioni Mobilita e sicurezza 2010_2011.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Esercitazioni Mobilita e sicurezza 2010_2011.zip",
+      "status": "downloaded",
+      "bytes": 14095,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Forzieri - Autenticazione in Rete.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Forzieri - Autenticazione in Rete.zip",
+      "status": "downloaded",
+      "bytes": 2679131,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Forzieri - Autenticazione.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Forzieri - Autenticazione.zip",
+      "status": "downloaded",
+      "bytes": 3786833,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Forzieri - IPsec.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Forzieri - IPsec.zip",
+      "status": "downloaded",
+      "bytes": 648103,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Introduzione alla crittografia.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Introduzione alla crittografia.zip",
+      "status": "downloaded",
+      "bytes": 662663,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Lezioni Mobilita e sicurezza 2010_2011.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Lezioni Mobilita e sicurezza 2010_2011.zip",
+      "status": "downloaded",
+      "bytes": 11902,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Programma Mobilita e sicurezza delle reti_2010_2011_v1.0.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Programma Mobilita e sicurezza delle reti_2010_2011_v1.0.zip",
+      "status": "downloaded",
+      "bytes": 11551,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Quesiti Prima prova Mobilita e sicurezza 15-11-2010.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Quesiti Prima prova Mobilita e sicurezza 15-11-2010.zip",
+      "status": "downloaded",
+      "bytes": 66891,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/RSA hash e firme.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/RSA hash e firme.zip",
+      "status": "downloaded",
+      "bytes": 2354400,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Radici quadrate.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Radici quadrate.zip",
+      "status": "downloaded",
+      "bytes": 442578,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Risultati prima prova Mobilita e sicurezza  15-11-10.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Risultati prima prova Mobilita e sicurezza  15-11-10.zip",
+      "status": "downloaded",
+      "bytes": 17349,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Soluzioni prima prova Mobilita e Sicurezza 15-11-2010.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Soluzioni prima prova Mobilita e Sicurezza 15-11-2010.zip",
+      "status": "downloaded",
+      "bytes": 561091,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/Tecniche a conoscenza zero.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/Tecniche a conoscenza zero.zip",
+      "status": "downloaded",
+      "bytes": 680981,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/cifrari a blocchi e a catena.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/cifrari a blocchi e a catena.zip",
+      "status": "downloaded",
+      "bytes": 2447589,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/esercitazioni_1_decina.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/esercitazioni_1_decina.zip",
+      "status": "downloaded",
+      "bytes": 1826067,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/esercitazioni_2_decina.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/esercitazioni_2_decina.zip",
+      "status": "downloaded",
+      "bytes": 2126319,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/esercizi FW.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/esercizi FW.zip",
+      "status": "downloaded",
+      "bytes": 5170351,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/esercizi campi_finiti e Rabin.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/esercizi campi_finiti e Rabin.zip",
+      "status": "downloaded",
+      "bytes": 915412,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/esercizi_d'esame_decina.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/esercizi_d'esame_decina.zip",
+      "status": "downloaded",
+      "bytes": 4503342,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita e sicurezza 2010_Lez-1.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita e sicurezza 2010_Lez-1.zip",
+      "status": "unavailable",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_e_sicurezza2010lez-2.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_e_sicurezza2010lez-2.zip",
+      "status": "downloaded",
+      "bytes": 740098,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_e_sicurezza2010lez-3.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_e_sicurezza2010lez-3.zip",
+      "status": "downloaded",
+      "bytes": 1000530,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_e_sicurezza2010lez-4.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_e_sicurezza2010lez-4.zip",
+      "status": "downloaded",
+      "bytes": 1715589,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_e_sicurezza2010lez-5.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_e_sicurezza2010lez-5.zip",
+      "status": "downloaded",
+      "bytes": 388079,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_sicurezza2010Lez-6.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/mobilita_sicurezza2010Lez-6.zip",
+      "status": "downloaded",
+      "bytes": 3080049,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/refresher_aritmetica_modulare.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/refresher_aritmetica_modulare.zip",
+      "status": "downloaded",
+      "bytes": 2450214,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/risultati Mobilita prove intermedie.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/risultati Mobilita prove intermedie.zip",
+      "status": "downloaded",
+      "bytes": 8089,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2010/sicurezza_umts.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2010/sicurezza_umts.zip",
+      "status": "downloaded",
+      "bytes": 708400,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/1a prova mobilita_sicurezza_11_11_11.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/1a prova mobilita_sicurezza_11_11_11.zip",
+      "status": "downloaded",
+      "bytes": 20849,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/2012 - Forzieri - Es1 - Autenticazione.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/2012 - Forzieri - Es1 - Autenticazione.zip",
+      "status": "downloaded",
+      "bytes": 3786827,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/2012 - Forzieri - Es2 - Autenticazione e Protocolli Sicuri.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/2012 - Forzieri - Es2 - Autenticazione e Protocolli Sicuri.zip",
+      "status": "downloaded",
+      "bytes": 2679125,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/2012- Forzieri - Es3 - IPsec.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/2012- Forzieri - Es3 - IPsec.zip",
+      "status": "downloaded",
+      "bytes": 648095,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/2a_prova-mobilita e sicurezza 30-1-2012.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/2a_prova-mobilita e sicurezza 30-1-2012.zip",
+      "status": "downloaded",
+      "bytes": 20205,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/AES standard - fips 197.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/AES standard - fips 197.zip",
+      "status": "downloaded",
+      "bytes": 155464,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/AES.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/AES.zip",
+      "status": "downloaded",
+      "bytes": 1118183,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Campi finiti.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Campi finiti.zip",
+      "status": "downloaded",
+      "bytes": 1154713,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Campi finiti2.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Campi finiti2.zip",
+      "status": "downloaded",
+      "bytes": 879273,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/DES standard -fips 46-2.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/DES standard -fips 46-2.zip",
+      "status": "downloaded",
+      "bytes": 52058,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/DSA standard - fips186-2-change1.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/DSA standard - fips186-2-change1.zip",
+      "status": "downloaded",
+      "bytes": 270329,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Del Miglio - Es1 - Firewall.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Del Miglio - Es1 - Firewall.zip",
+      "status": "downloaded",
+      "bytes": 417656,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Del Miglio - Es2 - Architetture di sicurezza e NAT.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Del Miglio - Es2 - Architetture di sicurezza e NAT.zip",
+      "status": "downloaded",
+      "bytes": 365241,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Esercitazioni Mobilita e sicurezza 2011_2012.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Esercitazioni Mobilita e sicurezza 2011_2012.zip",
+      "status": "downloaded",
+      "bytes": 10908,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Introduzione alla crittografia.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Introduzione alla crittografia.zip",
+      "status": "downloaded",
+      "bytes": 662663,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Lezioni Mobilita e sicurezza 2011_2012.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Lezioni Mobilita e sicurezza 2011_2012.zip",
+      "status": "downloaded",
+      "bytes": 9229,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011Lez-3.rar",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011Lez-3.rar",
+      "status": "downloaded",
+      "bytes": 598184,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011Lez-4.rar",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011Lez-4.rar",
+      "status": "downloaded",
+      "bytes": 1398014,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011Lez-5.rar",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011Lez-5.rar",
+      "status": "downloaded",
+      "bytes": 292356,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011Lez-6.rar",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011Lez-6.rar",
+      "status": "downloaded",
+      "bytes": 2028308,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011_Lez-2.rar",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Mobilita e sicurezza2011_Lez-2.rar",
+      "status": "downloaded",
+      "bytes": 527290,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Programma Mobilita e sicurezza delle reti_2011_2012.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Programma Mobilita e sicurezza delle reti_2011_2012.zip",
+      "status": "downloaded",
+      "bytes": 11683,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Quesiti 1o appello_Mobilita_20_2_2012.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Quesiti 1o appello_Mobilita_20_2_2012.zip",
+      "status": "downloaded",
+      "bytes": 21147,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/RSA hash e firme.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/RSA hash e firme.zip",
+      "status": "downloaded",
+      "bytes": 2354400,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Radici quadrate.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Radici quadrate.zip",
+      "status": "downloaded",
+      "bytes": 604736,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Risultati 1o appello_Mobilita_20_2_2012.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Risultati 1o appello_Mobilita_20_2_2012.zip",
+      "status": "downloaded",
+      "bytes": 6616,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Risultati Mobilita 1a e 2a prova 2011-12.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Risultati Mobilita 1a e 2a prova 2011-12.zip",
+      "status": "downloaded",
+      "bytes": 8718,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Risultati prima prova itinere Mobilita e Internet 11-11-11.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Risultati prima prova itinere Mobilita e Internet 11-11-11.zip",
+      "status": "downloaded",
+      "bytes": 14362,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Soluzioni Quesiti.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Soluzioni Quesiti.zip",
+      "status": "downloaded",
+      "bytes": 566104,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Soluzioni seconda prova itinere Mobilita 30 genn 2012.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Soluzioni seconda prova itinere Mobilita 30 genn 2012.zip",
+      "status": "downloaded",
+      "bytes": 472707,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Tecniche a conoscenza zero.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Tecniche a conoscenza zero.zip",
+      "status": "downloaded",
+      "bytes": 680981,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/Verticale eserciziario.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/Verticale eserciziario.zip",
+      "status": "downloaded",
+      "bytes": 210684,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/cifrari a blocchi e a catena.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/cifrari a blocchi e a catena.zip",
+      "status": "downloaded",
+      "bytes": 2447589,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/esercitazioni_1_decina.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/esercitazioni_1_decina.zip",
+      "status": "downloaded",
+      "bytes": 1826067,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/esercitazioni_2_decina.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/esercitazioni_2_decina.zip",
+      "status": "downloaded",
+      "bytes": 2126319,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/esercizi campi_finiti e Rabin.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/esercizi campi_finiti e Rabin.zip",
+      "status": "downloaded",
+      "bytes": 915412,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/esercizi_d'esame_decina.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/esercizi_d'esame_decina.zip",
+      "status": "downloaded",
+      "bytes": 4503342,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/mobilita e sicurezza 2011_Lez-1.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/mobilita e sicurezza 2011_Lez-1.zip",
+      "status": "unavailable",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/mobilita_e_sicurezza_delle_reti_2011/refresher_aritmetica_modulare.zip",
+      "path": "stuff/mobilita_e_sicurezza_delle_reti_2011/refresher_aritmetica_modulare.zip",
+      "status": "downloaded",
+      "bytes": 2450214,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/Comunicazioni%20sicure.zip",
+      "path": "stuff/sicurezzapdfonline/Comunicazioni sicure.zip",
+      "status": "downloaded",
+      "bytes": 1500650,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/Decinatrecordi.zip",
+      "path": "stuff/sicurezzapdfonline/Decinatrecordi.zip",
+      "status": "downloaded",
+      "bytes": 264920,
+      "content_type": "application/zip"
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/ES_protocolli-5-03.zip",
+      "path": "stuff/sicurezzapdfonline/ES_protocolli-5-03.zip",
+      "status": "downloaded",
+      "bytes": 250317,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/Es_carraIDS-5-03.zip",
+      "path": "stuff/sicurezzapdfonline/Es_carraIDS-5-03.zip",
+      "status": "downloaded",
+      "bytes": 216577,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/Es_delmiglioFW-5-03.zip",
+      "path": "stuff/sicurezzapdfonline/Es_delmiglioFW-5-03.zip",
+      "status": "downloaded",
+      "bytes": 362525,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/Risultatiitineresicurezza12-7-03.zip",
+      "path": "stuff/sicurezzapdfonline/Risultatiitineresicurezza12-7-03.zip",
+      "status": "downloaded",
+      "bytes": 65721,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/Sicur-recupero17-9-03.zip",
+      "path": "stuff/sicurezzapdfonline/Sicur-recupero17-9-03.zip",
+      "status": "downloaded",
+      "bytes": 49092,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/Sicurezza%20Programma2003.zip",
+      "path": "stuff/sicurezzapdfonline/Sicurezza Programma2003.zip",
+      "status": "downloaded",
+      "bytes": 18938,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/Sicurezza2003Lez-3.zip",
+      "path": "stuff/sicurezzapdfonline/Sicurezza2003Lez-3.zip",
+      "status": "downloaded",
+      "bytes": 468665,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/es-contiFW-5-03.zip",
+      "path": "stuff/sicurezzapdfonline/es-contiFW-5-03.zip",
+      "status": "downloaded",
+      "bytes": 187752,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/rifiutoSic.zip",
+      "path": "stuff/sicurezzapdfonline/rifiutoSic.zip",
+      "status": "downloaded",
+      "bytes": 80384,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/sicur-2comp12-7-2003.zip",
+      "path": "stuff/sicurezzapdfonline/sicur-2comp12-7-2003.zip",
+      "status": "downloaded",
+      "bytes": 253052,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/sicurezza2003Lez-1.zip",
+      "path": "stuff/sicurezzapdfonline/sicurezza2003Lez-1.zip",
+      "status": "downloaded",
+      "bytes": 908693,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/sicurezzapdfonline/sicurezza2003Lez-2.zip",
+      "path": "stuff/sicurezzapdfonline/sicurezza2003Lez-2.zip",
+      "status": "downloaded",
+      "bytes": 1257737,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/telematicapdfonline/Reti%20telefoniche%20fisse.zip",
+      "path": "stuff/telematicapdfonline/Reti telefoniche fisse.zip",
+      "status": "downloaded",
+      "bytes": 462592,
+      "cached": true
+    },
+    {
+      "url": "https://mauriziodecina.it/stuff/telematicapdfonline/Telefonia_e_mobilita.zip",
+      "path": "stuff/telematicapdfonline/Telefonia_e_mobilita.zip",
+      "status": "downloaded",
+      "bytes": 306086,
+      "cached": true
+    }
+  ]
+}

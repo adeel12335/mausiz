@@ -1,0 +1,64 @@
+{
+  "homepage": {
+    "output": "public/teaching.html",
+    "text_match": true,
+    "original_words": 6176,
+    "rendered_words": 6176,
+    "link_order_match": true,
+    "original_link_count": 493,
+    "rendered_link_count": 493
+  },
+  "decinabiography": {
+    "output": "public/stuff/decinabiography.htm",
+    "text_match": true,
+    "original_words": 1695,
+    "rendered_words": 1695,
+    "link_order_match": true,
+    "original_link_count": 0,
+    "rendered_link_count": 0
+  },
+  "decinabiografia": {
+    "output": "public/stuff/decinabiografia.htm",
+    "text_match": true,
+    "original_words": 1715,
+    "rendered_words": 1715,
+    "link_order_match": true,
+    "original_link_count": 0,
+    "rendered_link_count": 0
+  },
+  "decinapublications": {
+    "output": "public/stuff/decinapublications.htm",
+    "text_match": true,
+    "original_words": 3654,
+    "rendered_words": 3654,
+    "link_order_match": true,
+    "original_link_count": 0,
+    "rendered_link_count": 0
+  },
+  "summary": {
+    "publication_entries": {
+      "A": 23,
+      "B": 7,
+      "C": 5,
+      "D": 44,
+      "E": 4,
+      "F": 1,
+      "G": 33,
+      "H": 11
+    },
+    "publication_total": 128,
+    "archive_files_by_year": {
+      "attivita-2011-2012": 39,
+      "attivita-2010-2011": 37,
+      "attivita-2009-2010": 45,
+      "attivita-2008-2009": 34,
+      "attivita-2007-2008": 52,
+      "attivita-2006-2007": 114,
+      "attivita-2005-2006": 52,
+      "attivita-2003-2004": 46,
+      "attivita-2003": 60,
+      "attivita-2001": 2
+    },
+    "archive_files_total": 481
+  }
+}
