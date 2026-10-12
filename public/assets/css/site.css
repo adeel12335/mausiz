@@ -1551,3 +1551,13 @@ address { font-style: normal; }
   .toc-nav a.is-active { border-bottom-color: var(--gold); }
   .cv-article .cv-section { scroll-margin-top: 56px; }
 }
+
+/* --------------------------------------------------------------------------
+   404 page
+   -------------------------------------------------------------------------- */
+.not-found-inner { padding-block: clamp(64px, 10vw, 140px); max-width: 720px; margin-inline: auto; min-height: 60vh; }
+.not-found h1 { font-size: clamp(2rem, 4vw, 2.75rem); font-weight: 500; letter-spacing: -.018em; margin: 0 0 20px; }
+.not-found-links { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+.not-found-links li { border-bottom: 1px solid var(--rule); }
+.not-found-links a { display: block; padding: 14px 0; font: 500 1rem/1.4 var(--sans); }
+.not-found-links a:hover { color: var(--navy); }

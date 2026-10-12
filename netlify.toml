@@ -1,0 +1,20 @@
+# Netlify: the site is the public/ folder. No build step is needed.
+[build]
+  publish = "public"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/stuff/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"

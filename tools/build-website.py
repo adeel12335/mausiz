@@ -429,6 +429,25 @@ extra_head = (
     description=description, canonical=SITE_URL, extra_head=extra_head, body_class='home'), encoding='utf-8')
 
 # ---------------------------------------------------------------------------
+# 404 page (Netlify and GitHub Pages serve 404.html automatically)
+# ---------------------------------------------------------------------------
+not_found = (
+    '<main id="main" class="not-found"><span id="top"></span><div class="wrap not-found-inner">'
+    '<p class="page-kicker">Page not found</p>'
+    '<h1>This page does not exist on the site.</h1>'
+    '<p class="section-lede">The address may be out of date. Everything on the site is reachable from these pages.</p>'
+    '<ul class="not-found-links">'
+    '<li><a href="/index.html">Home</a></li>'
+    '<li><a href="/teaching.html">Teaching archive</a></li>'
+    '<li><a href="/stuff/decinabiography.htm">Curriculum vitae</a></li>'
+    '<li><a href="/stuff/decinabiografia.htm" lang="it" hreflang="it">Curriculum vitae in italiano</a></li>'
+    '<li><a href="/stuff/decinapublications.htm">List of selected publications</a></li>'
+    '</ul></div></main>'
+)
+(PUBLIC / '404.html').write_text(shell('Page not found – Maurizio Dècina', not_found, '/', 'en',
+                                       extra_head='<meta name="robots" content="noindex">'), encoding='utf-8')
+
+# ---------------------------------------------------------------------------
 # Sitemap
 # ---------------------------------------------------------------------------
 urls = ['', 'teaching.html', 'stuff/decinabiography.htm', 'stuff/decinabiografia.htm', 'stuff/decinapublications.htm']
