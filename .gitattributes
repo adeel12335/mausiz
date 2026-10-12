@@ -1,0 +1,13 @@
+# Keep the captured source snapshots byte for byte; normalise code to LF.
+* text=auto eol=lf
+design/source-content/** -text
+tmp/references/** -text
+*.zip binary
+*.rar binary
+*.pdf binary
+*.jpg binary
+*.JPG binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.ico binary
