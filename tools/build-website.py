@@ -15,6 +15,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit, unquote, quote
 from xml.sax.saxutils import escape as xml_escape
 from lxml import html
+from datetime import date
 import json, re, difflib
 from html import entities as html_entities
 
@@ -119,44 +120,70 @@ def header(prefix):
         '<span></span><span></span><span></span></button>'
         '<nav id="site-nav" class="site-nav" aria-label="Main">'
         '<ul>'
-        '<li><a href="' + prefix + 'index.html#biography">Biography</a></li>'
-        '<li><a href="' + prefix + 'index.html#career">Career</a></li>'
+        '<li><a href="' + prefix + 'index.html#biography">About</a></li>'
         '<li><a href="' + prefix + 'index.html#research">Research</a></li>'
-        '<li><a href="' + prefix + 'stuff/decinapublications.htm">Publications</a></li>'
-        '<li><a href="' + prefix + 'teaching.html">Teaching</a></li>'
+        '<li><a href="' + prefix + 'index.html#career">Career</a></li>'
+        '<li><a href="' + prefix + 'index.html#publications">Publications</a></li>'
+        '<li><a href="' + prefix + 'index.html#teaching">Teaching</a></li>'
+        '<li><a href="' + prefix + 'teaching.html">Archive</a></li>'
         '<li><a href="' + prefix + 'index.html#contact">Contact</a></li>'
         '</ul>'
-        '<a class="btn nav-cta" href="' + prefix + 'stuff/decinabiography.htm">Curriculum vitae</a>'
+        '<a class="btn nav-cta" href="' + prefix + 'stuff/decinabiography.htm">View CV</a>'
         '</nav></div></header>'
     )
 
 
+def icon(paths, viewbox='0 0 24 24'):
+    return ('<svg viewBox="' + viewbox + '" width="20" height="20" aria-hidden="true" focusable="false" '
+            'fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">'
+            + paths + '</svg>')
+
+
+ICON_MAIL = icon('<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/>')
+ICON_PIN = icon('<path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>')
+ICON_UP = icon('<path d="M12 19V5M6 11l6-6 6 6"/>')
+
+# Profile links shown as round icons in the footer. An entry renders only once
+# it has a URL; add the confirmed profile address to switch it on.
+FOOTER_PROFILES = [
+    ('LinkedIn', '', icon('<path d="M7 10v7M7 7v.01M11 17v-7M11 13.5c0-2 1.2-3.5 3-3.5s3 1.2 3 3.5V17"/>')),
+    ('Google Scholar', '', icon('<path d="m12 4 9 6-9 6-9-6 9-6z"/><path d="M7 13.5V17c1.4 1.3 3 2 5 2s3.6-.7 5-2v-3.5"/>')),
+    ('ORCID', '', icon('<circle cx="12" cy="12" r="9"/><path d="M9 10v6M9 7.5v.01M12 16v-6h2a3 3 0 0 1 0 6h-2z"/>')),
+]
+
+
 def footer(prefix):
+    home = prefix + 'index.html'
+    explore = [('About', home + '#biography'), ('Career', home + '#career'),
+               ('Recognition', home + '#recognition'), ('Publications', home + '#publications'),
+               ('Teaching', home + '#teaching'), ('Archive', prefix + 'teaching.html')]
+    research = [('Digital Transmission', 'area-transmission'), ('ISDN &amp; Standards', 'area-isdn'),
+                ('Packet Switching &amp; ATM', 'area-atm'), ('Internet &amp; Network Security', 'area-internet')]
+    profiles = ''.join(
+        '<li><a href="' + url + '" aria-label="' + name + '" rel="me noopener" target="_blank">' + svg + '</a></li>'
+        for name, url, svg in FOOTER_PROFILES if url)
+    links = lambda items: ''.join('<li><a href="' + href + '">' + label + '</a></li>' for label, href in items)
     return (
         '<footer class="site-footer"><div class="wrap footer-grid">'
         '<div class="footer-id"><p class="footer-name">Maurizio Dècina</p>'
-        '<p>Professor Emeritus of Telecommunications<br>Politecnico di Milano</p></div>'
-        '<nav aria-label="Site"><h2>Site</h2><ul>'
-        '<li><a href="' + prefix + 'index.html">Home</a></li>'
-        '<li><a href="' + prefix + 'index.html#biography">Biography</a></li>'
-        '<li><a href="' + prefix + 'index.html#career">Career</a></li>'
-        '<li><a href="' + prefix + 'index.html#research">Research</a></li>'
-        '<li><a href="' + prefix + 'index.html#recognition">Recognition</a></li>'
-        '<li><a href="' + prefix + 'index.html#publications">Publications</a></li>'
-        '<li><a href="' + prefix + 'teaching.html">Teaching archive</a></li>'
-        '</ul></nav>'
-        '<nav aria-label="Documents"><h2>Documents</h2><ul>'
-        '<li><a href="' + prefix + 'stuff/decinabiography.htm">Curriculum vitae</a></li>'
-        '<li><a href="' + prefix + 'stuff/decinabiografia.htm" lang="it" hreflang="it">Curriculum vitae in italiano</a></li>'
-        '<li><a href="' + prefix + 'stuff/decinapublications.htm">List of selected publications</a></li>'
-        '<li><a href="' + prefix + 'stuff/decina%20keynote%20slide%202011.zip">Keynote ICC 2011, Kyoto</a></li>'
-        '<li><a href="' + prefix + 'stuff/Decina%20Trecordi%20pieee%201997.zip">Proceedings of the IEEE, 1997</a></li>'
-        '</ul></nav>'
-        '<div class="footer-contact"><h2>Contact</h2>'
-        '<p>Politecnico di Milano<br>Piazza Leonardo da Vinci, 32<br>20133 Milano, Italy</p>'
-        '<a href="mailto:maurizio@mauriziodecina.it">maurizio@mauriziodecina.it</a>'
-        '<a href="mailto:m.decina@ieee.org">m.decina@ieee.org</a></div>'
-        '</div><div class="wrap footer-bottom"><p>© Maurizio Dècina</p><a href="#top">Back to top</a></div></footer>'
+        '<p class="footer-role">Professor Emeritus of Telecommunications<br>Politecnico di Milano</p>'
+        '<p class="footer-tagline">Five decades of research, teaching and institutional service '
+        'dedicated to building a more connected world.</p>'
+        '<ul class="footer-social">' + profiles +
+        '<li><a href="mailto:maurizio@mauriziodecina.it" aria-label="Email">' + ICON_MAIL + '</a></li></ul></div>'
+        '<nav aria-label="Explore"><h2>Explore</h2><ul class="footer-links">' + links(explore) + '</ul></nav>'
+        '<nav aria-label="Research"><h2>Research</h2><ul class="footer-links">'
+        + links((label, home + '#' + anchor) for label, anchor in research) + '</ul></nav>'
+        '<div class="footer-contact"><h2>Contact</h2><ul>'
+        '<li>' + ICON_PIN + '<address>Dipartimento di Elettronica, Informazione e Bioingegneria<br>'
+        'Politecnico di Milano<br>Piazza Leonardo da Vinci, 32<br>20133 Milano, Italy</address></li>'
+        '<li>' + ICON_MAIL + '<a href="mailto:maurizio@mauriziodecina.it">maurizio@mauriziodecina.it</a></li>'
+        '</ul></div>'
+        '</div><div class="wrap footer-bottom">'
+        '<p>© ' + str(date.today().year) + ' Maurizio Dècina. All rights reserved.</p>'
+        '<ul class="footer-legal"><li><a href="' + prefix + 'sitemap.xml">Sitemap</a></li></ul>'
+        '<a class="back-to-top" href="#top">Back to top<span>' + ICON_UP + '</span></a>'
+        '</div></footer>'
     )
 
 
