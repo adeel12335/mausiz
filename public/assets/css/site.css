@@ -16,8 +16,9 @@
   --gold-deep: #86682a;
   --brass: #d2b36f;
 
-  --serif: 'Literata', Georgia, 'Times New Roman', serif;
-  --sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --museo_sans: museo-sans, sans-serif, system-ui, -apple-system;
+  --serif: var(--museo_sans);
+  --sans: var(--museo_sans);
 
   --max: 1360px;
   --gutter: clamp(20px, 5vw, 80px);
