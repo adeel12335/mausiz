@@ -24,13 +24,14 @@ PUBLIC = ROOT / 'public'
 SOURCE = ROOT / 'design' / 'source-content'
 TOOLS = ROOT / 'tools'
 SITE_URL = 'https://mauriziodecina.it/'
+GSAP = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/'
 
 asset_manifest = json.loads((ROOT / 'asset-manifest.json').read_text(encoding='utf-8'))
 assets = {unquote(urlsplit(x['url']).path).lstrip('/'): x for x in asset_manifest['assets']}
 records = json.loads((SOURCE / 'content-manifest.json').read_text(encoding='utf-8'))
 
-FONTS = ('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400'
-         '&family=Literata:ital,opsz,wght@0,7..72,300..900;1,7..72,300..900&display=swap')
+FONTS = ('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400..800;1,400..800'
+         '&family=Source+Sans+3:ital,wght@0,300..700;1,300..700&display=swap')
 BLOCK_TAGS = {'p', 'blockquote', 'div', 'ul', 'ol', 'table', 'li', 'h1', 'h2', 'h3', 'h4', 'tr', 'td'}
 
 
@@ -128,7 +129,16 @@ def header(prefix):
         '<li><a href="' + prefix + 'teaching.html">Archive</a></li>'
         '<li><a href="' + prefix + 'index.html#contact">Contact</a></li>'
         '</ul>'
-        '<a class="btn nav-cta" href="' + prefix + 'stuff/decinabiography.htm">View CV</a>'
+        # Download mark on the CV action (Font Awesome, supplied by the client).
+        '<a class="btn nav-cta" href="' + prefix + 'stuff/decinabiography.htm">View CV'
+        '<svg class="cta-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" '
+        'width="14" height="14" aria-hidden="true" focusable="false" fill="currentColor">'
+        '<path d="M160 576C142.3 576 128 561.7 128 544C128 526.3 142.3 512 160 512L480 512'
+        'C497.7 512 512 526.3 512 544C512 561.7 497.7 576 480 576L160 576zM342.6 438.6'
+        'C330.1 451.1 309.8 451.1 297.3 438.6L169.3 310.6C156.8 298.1 156.8 277.8 169.3 265.3'
+        'C181.8 252.8 202.1 252.8 214.6 265.3L288 338.7L288 96C288 78.3 302.3 64 320 64'
+        'C337.7 64 352 78.3 352 96L352 338.7L425.4 265.3C437.9 252.8 458.2 252.8 470.7 265.3'
+        'C483.2 277.8 483.2 298.1 470.7 310.6L342.7 438.6z"/></svg></a>'
         '</nav></div></header>'
     )
 
@@ -181,7 +191,6 @@ def footer(prefix):
         '</ul></div>'
         '</div><div class="wrap footer-bottom">'
         '<p>© ' + str(date.today().year) + ' Maurizio Dècina. All rights reserved.</p>'
-        '<ul class="footer-legal"><li><a href="' + prefix + 'sitemap.xml">Sitemap</a></li></ul>'
         '<a class="back-to-top" href="#top">Back to top<span>' + ICON_UP + '</span></a>'
         '</div></footer>'
     )
@@ -225,10 +234,12 @@ intro[2].set('class', 'email-table')
 intro[3].set('class', 'bio-title')
 intro[4].set('class', 'bio-links')
 masthead = (
+    '<section class="archive-head">'
     '<div class="wrap archive-masthead"><div class="archive-masthead-id">'
     '<p class="page-kicker" data-chrome>Teaching archive, 2001 to 2012. The original course pages in Italian, complete.</p>'
     '<p class="home-intro">Home Page di</p><h1>Maurizio Dècina</h1>' + fragment(intro[1]) + fragment(intro[2]) +
     '</div><div class="archive-masthead-links">' + fragment(intro[3]) + fragment(intro[4]) + '</div></div>'
+    '</section>'
 )
 for node in intro:
     body.remove(node)
@@ -450,6 +461,18 @@ extra_head = (
     '<meta name="twitter:card" content="summary_large_image">'
     '<link rel="preload" as="image" href="./assets/portrait.webp" type="image/webp" fetchpriority="high">'
     '<script type="application/ld+json">' + json.dumps(person, ensure_ascii=False) + '</script>'
+    # GSAP drives the home page motion. The inline script hides the animated
+    # elements before first paint, but only when the reader allows motion, and
+    # takes that back if motion.js never signals ready -- a blocked CDN must
+    # not leave the page holding invisible content.
+    '<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>'
+    '<script>(function(){var d=document.documentElement;'
+    'if(window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;'
+    'd.className+=" motion";setTimeout(function(){'
+    'if(!d.classList.contains("motion-ready"))d.classList.remove("motion")},2500)})()</script>'
+    '<script src="' + GSAP + 'gsap.min.js" defer></script>'
+    '<script src="' + GSAP + 'ScrollTrigger.min.js" defer></script>'
+    '<script src="./assets/js/motion.js" defer></script>'
 )
 (PUBLIC / 'index.html').write_text(shell(
     'Maurizio Dècina – Professor Emeritus of Telecommunications, Politecnico di Milano', home, './', 'en',
