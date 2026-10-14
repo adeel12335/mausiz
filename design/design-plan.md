@@ -72,6 +72,12 @@ Layout
 └──────────────────────────────────────────────────────────────┘
 ```
 
+Stylesheet order: `site.css` (base system), `minimal.css` (the professional minimal revamp with the Milan city hero, see `design/minimal-revamp/design-system.md`), then `motion.css` (buttons and motion; loaded last so it has the final word).
+
+Buttons (`motion.css`): pill shape, Plex Sans 600, sweep fill from the left on hover, 2px lift with a soft shadow, press scales to .985, pointer ripple, gold focus ring. Primary is bronze with a top light; on the dark hero the secondary is a white outline that fills white.
+
+Motion (`motion.css` + `site.js`): one hero reveal on load (copy staggers up, portrait rises, city image settles from a 4% zoom), a gentle parallax on the portrait while the hero is in view (desktop only), scroll reveals added by JS to section heads and list rows with a per-parent stagger, and hover responses on gallery, download and area items. Without JS nothing is hidden; with reduced motion nothing is marked.
+
 Motion: one hero reveal on load (name, rule, portrait). Scroll-spy on the archive year rail and publication categories answers the reader's scrolling. Reduced motion disables all of it.
 
 ## Review against the generic default

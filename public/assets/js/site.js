@@ -135,6 +135,97 @@
     });
   }
 
+  /* ---------- Scroll reveals ----------
+     Elements are marked here, not in the HTML, so pages stay complete without JS
+     and nothing is hidden when motion is reduced. */
+  if (!reduceMotion.matches && 'IntersectionObserver' in window) {
+    var groups = [
+      ['.split-head', 'left'],
+      ['.section-title + .section-lede, .split-body > h3, .split-body > table, .split-body > .bio-text', 'fade'],
+      ['.affil-list li', ''],
+      ['.timeline li', ''],
+      ['.area', 'scale'],
+      ['.award-list li', ''],
+      ['.service-list li', 'fade'],
+      ['.selected-pubs li', ''],
+      ['.course-list li', 'fade'],
+      ['.archive-index li', ''],
+      ['.download-list li', ''],
+      ['.gallery-grid li', 'scale'],
+      ['.photo-band', 'fade'],
+      ['.contact-grid > div', ''],
+      ['.cv-facts div', ''],
+      ['.cv-head-photo', 'scale'],
+      ['.not-found-links li', '']
+    ];
+    var marked = [];
+    groups.forEach(function (group) {
+      var nodes = document.querySelectorAll(group[0]);
+      var index = 0;
+      var lastParent = null;
+      nodes.forEach(function (node) {
+        if (node.closest('.hero') || node.hasAttribute('data-reveal')) return;
+        /* Stagger restarts for each parent so long lists do not accumulate delay. */
+        if (node.parentNode !== lastParent) { index = 0; lastParent = node.parentNode; }
+        node.setAttribute('data-reveal', group[1]);
+        node.style.setProperty('--i', String(Math.min(index, 7)));
+        index += 1;
+        marked.push(node);
+      });
+    });
+    var revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    marked.forEach(function (node) { revealObserver.observe(node); });
+
+    /* The career timeline draws its spine once it enters the viewport. */
+    var timeline = document.querySelector('.timeline');
+    if (timeline) {
+      var spineObserver = new IntersectionObserver(function (entries) {
+        if (entries.some(function (e) { return e.isIntersecting; })) {
+          timeline.classList.add('is-drawn');
+          spineObserver.disconnect();
+        }
+      }, { threshold: 0.05 });
+      spineObserver.observe(timeline);
+    }
+
+    /* Gentle parallax on the hero portrait, desktop only. */
+    var heroImg = document.querySelector('.hero-art img');
+    var wideScreen = window.matchMedia('(min-width: 1024px)');
+    if (heroImg && wideScreen.matches) {
+      var parallaxTick = false;
+      var parallax = function () {
+        parallaxTick = false;
+        var y = window.scrollY;
+        if (y > window.innerHeight) return;
+        heroImg.style.setProperty('--parallax', (y * 0.12).toFixed(1) + 'px');
+      };
+      window.addEventListener('scroll', function () {
+        if (!parallaxTick) { parallaxTick = true; requestAnimationFrame(parallax); }
+      }, { passive: true });
+    }
+
+    /* Ripple from the pointer position on button press. */
+    document.addEventListener('pointerdown', function (event) {
+      var button = event.target.closest('.btn, .bio-links a');
+      if (!button) return;
+      var rect = button.getBoundingClientRect();
+      var size = Math.max(rect.width, rect.height) * 1.6;
+      var ripple = document.createElement('span');
+      ripple.className = 'btn-ripple';
+      ripple.style.width = ripple.style.height = size + 'px';
+      ripple.style.left = (event.clientX - rect.left) + 'px';
+      ripple.style.top = (event.clientY - rect.top) + 'px';
+      button.appendChild(ripple);
+      ripple.addEventListener('animationend', function () { ripple.remove(); });
+    });
+  }
+
   /* ---------- Hero reveal: add the class once fonts are ready so text never flashes mid-animation ---------- */
   var hero = document.querySelector('.hero');
   if (hero && !reduceMotion.matches) {

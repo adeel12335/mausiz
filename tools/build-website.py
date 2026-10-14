@@ -176,6 +176,8 @@ def shell(title, main, prefix='./', lang='en', description='', canonical='', ext
         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
         '<link rel="stylesheet" href="' + FONTS + '">'
         '<link rel="stylesheet" href="' + prefix + 'assets/css/site.css">'
+        '<link rel="stylesheet" href="' + prefix + 'assets/css/minimal.css">'
+        '<link rel="stylesheet" href="' + prefix + 'assets/css/motion.css">'
         '<script>document.documentElement.className+=" js"</script>'
         '<script src="' + prefix + 'assets/js/site.js" defer></script>' + extra_head +
         '</head><body' + (' class="' + body_class + '"' if body_class else '') + '>' +
@@ -194,6 +196,10 @@ hero_name = intro[0]
 for image in hero_name.xpath('.//img'):
     image.getparent().remove(image)
 intro[1].set('class', 'affiliation')
+# Trim a legacy line-end space without changing visible affiliation text.
+for node in intro[1].iter():
+    if node.text:
+        node.text = re.sub(r'[ \t]+(?=\n)', '', node.text)
 intro[2].set('class', 'email-table')
 intro[3].set('class', 'bio-title')
 intro[4].set('class', 'bio-links')
@@ -421,7 +427,7 @@ extra_head = (
     '<meta property="og:image" content="' + SITE_URL + 'assets/og-image.jpg">'
     '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
     '<meta name="twitter:card" content="summary_large_image">'
-    '<link rel="preload" as="image" href="./assets/portrait.webp" type="image/webp" fetchpriority="high">'
+    '<link rel="preload" as="image" href="./assets/milan-modern-v3.webp" type="image/webp" fetchpriority="high">'
     '<script type="application/ld+json">' + json.dumps(person, ensure_ascii=False) + '</script>'
 )
 (PUBLIC / 'index.html').write_text(shell(
