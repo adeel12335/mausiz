@@ -1,9 +1,10 @@
 <main id="top">
 
 <section class="hero" aria-labelledby="hero-name">
+  <picture class="hero-city" aria-hidden="true"><source type="image/webp" srcset="./assets/milan-modern-v3.webp"><img src="./assets/milan-modern-v3.png" width="1672" height="941" alt="" fetchpriority="high" decoding="async"></picture>
   <div class="hero-copy">
-    <p class="hero-role">Professor Emeritus of Telecommunications, Politecnico di Milano</p>
     <h1 id="hero-name" class="hero-name">Maurizio Dècina</h1>
+    <p class="hero-role">Professor Emeritus of Telecommunications, Politecnico di Milano</p>
     <figure class="hero-citation">
       <blockquote>
         <p>For contributions to digital communications and to voice/data packet switching.</p>
@@ -20,12 +21,7 @@
       <a href="mailto:m.decina@ieee.org">m.decina@ieee.org</a>
     </address>
   </div>
-  <div class="hero-art">
-    <picture>
-      <source type="image/webp" srcset="./assets/portrait-640.webp 640w, ./assets/portrait.webp 1048w" sizes="(min-width: 1024px) 44vw, 100vw">
-      <img src="./assets/portrait.jpg" srcset="./assets/portrait-640.jpg 640w, ./assets/portrait.jpg 1048w" sizes="(min-width: 1024px) 44vw, 100vw" width="1048" height="1201" alt="Maurizio Dècina" fetchpriority="high" decoding="async">
-    </picture>
-  </div>
+  <div class="hero-art"><picture class="hero-portrait"><source type="image/webp" srcset="./assets/maurizio-cutout-v2.webp"><img src="./assets/maurizio-cutout-v2.png" width="1172" height="1342" alt="Maurizio Dècina" fetchpriority="high" decoding="async"></picture></div>
 </section>
 
 <section class="affiliations" aria-label="Principal affiliations">
@@ -370,20 +366,17 @@
   </div>
 </section>
 
-<figure class="photo-band">
+<section id="teaching" class="section teaching-section" aria-labelledby="teaching-title">
+  <div class="wrap teaching-feature"><div class="teaching-intro"><h2 id="teaching-title" class="section-title">Teaching</h2><p class="section-lede">Full professor since 1980 and at Politecnico di Milano since 1987. Lecture notes, exercises, examination papers and results from 2001 to 2012 remain available in the archive, exactly as they were published.</p><a class="btn teaching-archive-cta" href="./teaching.html"><span>Open the complete teaching archive</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></div><figure class="photo-band teaching-feature-photo">
   <picture>
-    <source type="image/webp" srcset="./assets/lecture-hall-900.webp 900w, ./assets/lecture-hall-1600.webp 1600w" sizes="100vw">
-    <img src="./assets/lecture-hall-1600.jpg" srcset="./assets/lecture-hall-900.jpg 900w, ./assets/lecture-hall-1600.jpg 1600w" sizes="100vw" width="1600" height="1200" alt="Students filling a lecture hall at Politecnico di Milano, waving and smiling towards the lectern" loading="lazy" decoding="async">
+    <source type="image/webp" srcset="./assets/lecture-hall-900.webp 900w, ./assets/lecture-hall-1600.webp 1600w" sizes="(min-width: 1536px) 784px, (min-width: 1024px) 54vw, 100vw">
+    <img src="./assets/lecture-hall-1600.jpg" srcset="./assets/lecture-hall-900.jpg 900w, ./assets/lecture-hall-1600.jpg 1600w" sizes="(min-width: 1536px) 784px, (min-width: 1024px) 54vw, 100vw" width="1600" height="1200" alt="Students filling a lecture hall at Politecnico di Milano, waving and smiling towards the lectern" loading="lazy" decoding="async">
   </picture>
   <figcaption>Students of the course Internet: infrastrutture e sicurezza, Politecnico di Milano, academic year 2003 to 2004.</figcaption>
-</figure>
-
-<section id="teaching" class="section section-after-photo" aria-labelledby="teaching-title">
-  <div class="wrap split">
+</figure></div>
+  <div class="wrap split teaching-details">
     <div class="split-head">
-      <h2 id="teaching-title" class="section-title">Teaching</h2>
-      <p class="section-lede">Full professor since 1980 and at Politecnico di Milano since 1987. Lecture notes, exercises, examination papers and results from 2001 to 2012 remain available in the archive, exactly as they were published.</p>
-      <ul class="course-list">
+                  <ul class="course-list">
         <li>Circuit theory<span>Politecnico di Milano, 1987 to 1989</span></li>
         <li>Switching systems<span>Politecnico di Milano, 1989 to 1992</span></li>
         <li>Telecommunications networks<span>Politecnico di Milano, 1992 to 1998</span></li>
@@ -392,10 +385,7 @@
         <li>Electronic Switching Systems and Broadband Switching Systems, PhD courses<span>Illinois Institute of Technology, Chicago, 1981 and 1990</span></li>
         <li>Information Systems and Technologies<span>Faculty of Communication Science, Lugano, 1996 to 2000</span></li>
       </ul>
-      <p class="section-links">
-        <a href="./teaching.html">Open the complete teaching archive</a>
-      </p>
-    </div>
+          </div>
     <div class="split-body">
       <h3 class="archive-index-title">Course archive by academic year</h3>
       <ul class="archive-index" lang="it">
