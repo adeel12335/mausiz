@@ -25,7 +25,7 @@
   --radius: 2px;
 
   /* Type scale: one set of sizes for the whole site. */
-  --fs-display: clamp(3rem, 6.2vw, 5.5rem);   /* hero name            48 to 88px */
+  --fs-display: clamp(2.75rem, 5.2vw, 4.5rem); /* hero name            44 to 72px */
   --fs-h1: clamp(2.25rem, 3.8vw, 3.25rem);     /* page titles          36 to 52px */
   --fs-h2: clamp(1.875rem, 2.9vw, 2.5rem);     /* section titles       30 to 40px */
   --fs-h3: 1.375rem;                           /* item titles          22px */
@@ -280,12 +280,12 @@ address { font-style: normal; }
       [content-start] minmax(0, calc((var(--max) - 2 * var(--gutter)) * .56))
       [mid] minmax(0, calc((var(--max) - 2 * var(--gutter)) * .44))
       [content-end] minmax(var(--gutter), 1fr) [full-end];
-    min-height: clamp(540px, calc(100svh - var(--header-h)), 640px);
+    min-height: clamp(400px, calc(100svh - var(--header-h) - 140px), 500px);
   }
   .hero-copy {
     grid-column: content-start / mid;
     align-self: center;
-    padding: 48px 56px 48px 0;
+    padding: 28px 56px 28px 0;
   }
   .hero-art {
     grid-column: mid / full-end;
@@ -295,27 +295,29 @@ address { font-style: normal; }
   .hero-art picture { position: absolute; inset: 0; }
 }
 
-.hero-copy { padding: 32px 0 32px; }
+.hero-copy { padding: 28px 0 28px; }
 .hero-copy > * { max-width: 34ch; }
+.hero-copy .hero-citation { max-width: 46ch; }
+.hero-copy .hero-role { max-width: none; }
 
 .hero-role {
   font: 500 var(--fs-small)/1.45 var(--sans);
   color: var(--slate);
-  margin: 0 0 16px;
+  margin: 0 0 12px;
 }
 
 .hero-name {
   font-size: var(--fs-display);
   font-weight: 500;
   line-height: .96;
-  letter-spacing: -.026em;
-  margin: 0 0 22px;
+  letter-spacing: -.024em;
+  margin: 0 0 18px;
   max-width: none;
 }
 
 .hero-citation {
-  margin: 0 0 26px;
-  padding-top: 18px;
+  margin: 0 0 22px;
+  padding-top: 16px;
   position: relative;
 }
 .hero-citation::before {
@@ -343,7 +345,7 @@ address { font-style: normal; }
   flex-wrap: wrap;
   align-items: center;
   gap: 12px 14px;
-  margin: 0 0 22px;
+  margin: 0 0 18px;
   max-width: none;
 }
 .hero-alt {
@@ -380,18 +382,18 @@ address { font-style: normal; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 8%;
+  object-position: 50% 10%;
 }
 
 @media (max-width: 1023px) {
   .hero-copy { padding-inline: var(--gutter); }
-  .hero-art { aspect-ratio: 16 / 10; }
+  .hero-art { aspect-ratio: 16 / 9; }
   .hero-art picture { position: absolute; inset: 0; }
   .hero-art::before { left: 0; width: 2px; }
   .hero-art img { object-position: 50% 12%; }
 }
 @media (max-width: 640px) {
-  .hero-art { aspect-ratio: 4 / 3; }
+  .hero-art { aspect-ratio: 16 / 10; }
   .hero-art img { object-position: 50% 0; }
   .hero-actions .btn { flex: 1 1 auto; }
 }
