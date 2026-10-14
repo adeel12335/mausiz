@@ -26,8 +26,9 @@ Type
 
 - Literata (variable, optical sizes): display name, headings, body, quotations. Chosen for its book-like scholarly voice and strong italics; the site reads like a well-set academic monograph rather than a start-up page.
 - IBM Plex Sans: navigation, buttons, years, file sizes, labels. Engineering heritage fits a standards-body career.
-- Scale (px at desktop): 14, 15, 17, 19 body, 22, 27, 34, 44, 56, display clamp(60–120).
-- Line length ≤ 68ch for serif body; line-height 1.6 body, 1.05–1.15 display.
+- Scale, defined once as tokens in `site.css` and used everywhere (desktop px): display 48–88 (hero name), h1 36–52 (page titles), h2 30–40 (section titles), h3 22 (item titles), h4 20 (sub-list titles), lede 20, body 18, ui 16 (compact rows, footer), small 15 (nav, buttons, meta), caption 13. On phones h3, h4, lede and body step down one notch.
+- Line length ≤ 68ch for serif body; line-height 1.6 body, 0.96 display.
+- Hero height is capped: clamp(540px, viewport minus header, 640px) on desktop; the portrait is absolutely positioned so it never stretches the row.
 
 Layout
 
