@@ -148,9 +148,7 @@ address { font-style: normal; }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, .96);
-  -webkit-backdrop-filter: saturate(1.2) blur(10px);
-  backdrop-filter: saturate(1.2) blur(10px);
+  background: #fff;
   border-bottom: 1px solid var(--rule);
   transition: box-shadow .25s ease;
 }
@@ -623,12 +621,14 @@ address { font-style: normal; }
 
 /* Key milestones (home #career) */
 .milestones {
+  --ms-gap: 36px;
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
-  gap: 0 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: var(--ms-gap);
+  row-gap: 48px;
 }
 .milestones li { position: relative; padding-top: 40px; }
 .milestones li::before {
@@ -644,26 +644,28 @@ address { font-style: normal; }
 .milestones li::after {
   content: "";
   position: absolute;
-  top: 8px; left: 0; right: -20px;
+  top: 8px; left: 0; right: calc(var(--ms-gap) * -1);
   height: 1px;
   background: var(--rule);
 }
+.milestones li:nth-child(3n)::after,
 .milestones li:last-child::after { right: 0; }
 .ms-year {
   display: block;
   margin-bottom: 12px;
-  font: 600 19px/1.2 var(--serif);
+  font: 600 22px/1.2 var(--serif);
   color: var(--navy);
-  white-space: nowrap;
 }
 .milestones p {
   margin: 0;
   font: 14px/1.55 var(--sans);
   color: var(--slate);
 }
-@media (max-width: 1023px) {
-  .milestones { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 20px; }
-  .milestones li:nth-child(4n)::after { right: 0; }
+@media (max-width: 800px) {
+  .milestones { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .milestones li:nth-child(3n)::after { right: calc(var(--ms-gap) * -1); }
+  .milestones li:nth-child(2n)::after,
+  .milestones li:last-child::after { right: 0; }
 }
 @media (max-width: 640px) {
   .milestones { grid-template-columns: minmax(0, 1fr); gap: 0; }
@@ -783,16 +785,18 @@ address { font-style: normal; }
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 36px;
 }
 .honours li {
   display: grid;
   grid-template-columns: 48px minmax(0, 1fr);
-  gap: 24px;
-  padding: 4px 40px;
+  gap: 16px;
+  padding: 4px 20px;
   border-left: 1px solid var(--rule);
 }
-.honours li:first-child { padding-left: 0; border-left: 0; }
+.honours li:first-child,
+.honours li:nth-child(odd) { padding-left: 0; border-left: 0; }
 .honours li > svg { display: block; color: var(--gold); }
 .honours h3 {
   margin: 0 0 12px;
@@ -901,6 +905,41 @@ address { font-style: normal; }
 @media (max-width: 640px) {
   .teach-grid { grid-template-columns: minmax(0, 1fr); }
   .teach-col { padding-left: 0; border-left: 0; }
+}
+
+/* --------------------------------------------------------------------------
+   Documents — advertisement and the files sent for the site
+   -------------------------------------------------------------------------- */
+.record-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 48px;
+}
+.record-list li { padding: 18px 0; border-top: 1px solid var(--rule); }
+.record-list li:nth-child(-n + 2) { padding-top: 0; border-top: 0; }
+.record-list li:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.record-list h3 {
+  margin: 0 0 6px;
+  font: 600 18px/1.3 var(--serif);
+  color: var(--navy);
+}
+.record-list p {
+  margin: 0 0 10px;
+  font: 15px/1.55 var(--sans);
+  color: var(--slate);
+}
+.record-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  margin: 0;
+}
+@media (max-width: 1023px) {
+  .record-list { grid-template-columns: minmax(0, 1fr); }
+  .record-list li:nth-child(2) { padding-top: 18px; border-top: 1px solid var(--rule); }
 }
 
 /* --------------------------------------------------------------------------
@@ -1522,7 +1561,12 @@ address { font-style: normal; }
   line-height: 1.45;
 }
 .cv-head-links { margin: 0; font: 500 15px/1.4 var(--sans); }
+.cv-head-links a + a { margin-left: 22px; }
 .cv-head-links a { color: var(--gold-deep); }
+.source-article ol.ref-list { list-style: decimal; margin: 0; padding-left: 1.6em; }
+.source-article ol.ref-list li { margin: 0 0 12px; padding-left: .35em; }
+.source-article sup { line-height: 0; }
+.source-article sup a { font-size: .72em; }
 .cv-head-links a:hover { color: var(--ink); }
 .cv-head-photo { margin: 0; }
 .cv-head-photo img {
@@ -1722,12 +1766,13 @@ address { font-style: normal; }
   position: absolute;
   top: 8px;
   left: 0;
-  right: -20px;
+  right: calc(var(--ms-gap) * -1);
   height: 1px;
   background: linear-gradient(90deg, var(--gold), var(--brass));
   transform: scaleX(0);
   transform-origin: left center;
 }
+.milestones li:nth-child(3n) > .ms-fill,
 .milestones li:last-child > .ms-fill { right: 0; }
 
 .milestones li::before { transition: box-shadow .4s var(--ease-out), transform .4s var(--ease-out); }
@@ -1736,8 +1781,10 @@ address { font-style: normal; }
   transform: scale(1.08);
 }
 
-@media (max-width: 1023px) {
-  .milestones li:nth-child(4n) > .ms-fill { right: 0; }
+@media (max-width: 800px) {
+  .milestones li:nth-child(3n) > .ms-fill { right: calc(var(--ms-gap) * -1); }
+  .milestones li:nth-child(2n) > .ms-fill,
+  .milestones li:last-child > .ms-fill { right: 0; }
 }
 @media (max-width: 640px) {
   .milestones li > .ms-fill {
@@ -1808,9 +1855,7 @@ address { font-style: normal; }
 .site-header { transition: box-shadow .3s var(--ease-out), background-color .3s var(--ease-out); }
 .site-header.is-condensed {
   box-shadow: 0 10px 30px -22px rgba(15, 31, 51, .55);
-  background: rgba(255, 255, 255, .94);
-  -webkit-backdrop-filter: saturate(180%) blur(10px);
-  backdrop-filter: saturate(180%) blur(10px);
+  background: #fff;
 }
 .site-header.is-condensed .header-inner { min-height: 62px; }
 .header-inner { transition: min-height .3s var(--ease-out); }
@@ -1996,48 +2041,29 @@ address { font-style: normal; }
    -------------------------------------------------------------------------- */
 .quote-band {
   position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  background: #0a1526;
-  border-block: 1px solid rgba(255, 255, 255, .06);
-}
-
-.quote-band-art {
-  position: absolute;
-  inset: 0;
-  z-index: -2;
-  display: block;
-}
-.quote-band-art img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 28% 50%;
-  will-change: transform;
-}
-
-/* Darkens left to right, so the type side is always the quietest part. */
-.quote-band::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background: linear-gradient(90deg,
-    rgba(8, 20, 38, .15) 0%,
-    rgba(8, 20, 38, .50) 40%,
-    rgba(8, 20, 38, .80) 72%,
-    rgba(8, 20, 38, .88) 100%);
-  pointer-events: none;
+  background: #0e1c30;
 }
 
 .quote-band-inner {
   display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  gap: clamp(28px, 4vw, 64px);
   align-items: center;
-  min-height: clamp(300px, 32vw, 460px);
-  padding-block: clamp(48px, 5vw, 76px);
+  padding-block: clamp(40px, 5vw, 72px);
 }
 
-.quote-band-figure { margin: 0; max-width: 40em; }
+.quote-band-ad {
+  display: block;
+  background: #fff;
+  padding: 8px;
+}
+.quote-band-ad img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.quote-band-figure { margin: 0; max-width: 36em; }
 
 .quote-band .eyebrow {
   margin-bottom: 20px;
@@ -2063,26 +2089,22 @@ address { font-style: normal; }
   text-transform: uppercase;
   color: #bed0e4;
 }
-
-/* Wide: the words take the right-hand half and the attribution closes it. */
-@media (min-width: 1024px) {
-  .quote-band-inner { grid-template-columns: minmax(0, .44fr) minmax(0, .56fr); }
-  .quote-band-figure { grid-column: 2; }
-  .quote-band-cite { text-align: right; }
+.quote-band-note {
+  margin: 14px 0 0;
+  font: 400 15px/1.55 var(--sans);
+  color: #d5e2ef;
+}
+.quote-band-note span {
+  display: block;
+  margin-bottom: 6px;
+  font: 600 11px/1.3 var(--sans);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #9eb4c9;
 }
 
-/* Narrow: the globe sinks behind the full-width text, scrim doing the work. */
-@media (max-width: 1023px) {
-  .quote-band-art img { object-position: 36% 50%; }
-  .quote-band::after {
-    background: linear-gradient(180deg,
-      rgba(8, 20, 38, .62) 0%,
-      rgba(8, 20, 38, .80) 55%,
-      rgba(8, 20, 38, .9) 100%);
-  }
-}
-@media (max-width: 640px) {
-  .quote-band-inner { min-height: 0; padding-block: 52px; }
+@media (max-width: 800px) {
+  .quote-band-inner { grid-template-columns: minmax(0, 1fr); padding-block: 36px 48px; }
 }
 
 /* --------------------------------------------------------------------------
@@ -2144,36 +2166,7 @@ address { font-style: normal; }
   .area-body { padding: 22px 22px 20px; }
 }
 
-/* --------------------------------------------------------------------------
-   Key milestones — alternating above and below the rail
-
-   The rail sits on the row's centre line and every entry hangs off it, odd
-   ones below and even ones above, so eight dates fit across without the long
-   descriptions colliding. Markers and rail are offset with margins rather
-   than transforms, because GSAP drives scaleX on the fill and would overwrite
-   any transform set here.
-   -------------------------------------------------------------------------- */
-@media (min-width: 1024px) {
-  .milestones li {
-    display: grid;
-    grid-template-rows: 1fr 0 1fr;
-    padding-top: 0;
-    min-height: 268px;
-  }
-
-  .ms-body { grid-row: 3; padding-top: 26px; }
-  .milestones li:nth-child(even) .ms-body {
-    grid-row: 1;
-    align-self: end;
-    padding-top: 0;
-    padding-bottom: 26px;
-  }
-
-  /* Marker: 17px tall, so half of it is pulled back above the centre line. */
-  .milestones li::before { top: 50%; margin-top: -8.5px; }
-  .milestones li::after,
-  .milestones li > .ms-fill { top: 50%; margin-top: -.5px; }
-}
+/* Milestones sit under the rail, three across, so the longer dates stay readable. */
 
 @media (min-width: 641px) and (max-width: 1023px) {
   .milestones li { min-height: 0; }

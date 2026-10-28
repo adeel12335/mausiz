@@ -18,6 +18,8 @@ from lxml import html
 from datetime import date
 import json, re, difflib
 from html import entities as html_entities
+from html import escape, unescape
+import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / 'public'
@@ -157,7 +159,7 @@ ICON_UP = icon('<path d="M12 19V5M6 11l6-6 6 6"/>')
 # it has a URL; add the confirmed profile address to switch it on.
 FOOTER_PROFILES = [
     ('LinkedIn', '', icon('<path d="M7 10v7M7 7v.01M11 17v-7M11 13.5c0-2 1.2-3.5 3-3.5s3 1.2 3 3.5V17"/>')),
-    ('Google Scholar', '', icon('<path d="m12 4 9 6-9 6-9-6 9-6z"/><path d="M7 13.5V17c1.4 1.3 3 2 5 2s3.6-.7 5-2v-3.5"/>')),
+    ('Google Scholar', 'https://scholar.google.com/citations?user=RWmo4cEAAAAJ&hl=en', icon('<path d="m12 4 9 6-9 6-9-6 9-6z"/><path d="M7 13.5V17c1.4 1.3 3 2 5 2s3.6-.7 5-2v-3.5"/>')),
     ('ORCID', '', icon('<circle cx="12" cy="12" r="9"/><path d="M9 10v6M9 7.5v.01M12 16v-6h2a3 3 0 0 1 0 6h-2z"/>')),
 ]
 
@@ -165,7 +167,8 @@ FOOTER_PROFILES = [
 def footer(prefix):
     home = prefix + 'index.html'
     explore = [('About', home + '#biography'), ('Career', home + '#career'),
-               ('Recognition', home + '#recognition'), ('Publications', home + '#publications'),
+               ('Recognition', home + '#recognition'), ('Documents', home + '#documents'),
+               ('Publications', home + '#publications'),
                ('Teaching', home + '#teaching'), ('Archive', prefix + 'teaching.html')]
     research = [('Digital Transmission', 'area-transmission'), ('ISDN &amp; Standards', 'area-isdn'),
                 ('Packet Switching &amp; ATM', 'area-atm'), ('Internet &amp; Network Security', 'area-internet')]
@@ -401,7 +404,9 @@ for key in ('decinabiography', 'decinabiografia', 'decinapublications'):
             '<p class="cv-head-role">' + labels['role'] + '</p>'
             '<p class="cv-head-intro">' + labels['intro'] + '</p>'
             '<dl class="cv-facts">' + ''.join('<div><dt>' + t + '</dt><dd>' + d + '</dd></div>' for t, d in labels['facts']) + '</dl>'
-            '<p class="cv-head-links"><a href="' + other_href + '" lang="' + other_lang + '" hreflang="' + other_lang + '">' + other_text + '</a></p>'
+            '<p class="cv-head-links"><a href="' + other_href + '" lang="' + other_lang + '" hreflang="' + other_lang + '">' + other_text + '</a>'
+            + (' <a href="../biography-2023.html">Biography through 2022</a> <a href="../biography-draft.html">Fuller draft</a>' if key == 'decinabiography' else '')
+            + '</p>'
             '</div>'
             '<figure class="cv-head-photo"><picture>'
             '<source type="image/webp" srcset="../assets/portrait-2022-480.webp 480w, ../assets/portrait-2022.webp 860w" sizes="(min-width: 1024px) 380px, 60vw">'
@@ -489,6 +494,8 @@ not_found = (
     '<ul class="not-found-links">'
     '<li><a href="/index.html">Home</a></li>'
     '<li><a href="/teaching.html">Teaching archive</a></li>'
+    '<li><a href="/biography-2023.html">Biography through 2022</a></li>'
+    '<li><a href="/biography-draft.html">Fuller biography draft</a></li>'
     '<li><a href="/stuff/decinabiography.htm">Curriculum vitae</a></li>'
     '<li><a href="/stuff/decinabiografia.htm" lang="it" hreflang="it">Curriculum vitae in italiano</a></li>'
     '<li><a href="/stuff/decinapublications.htm">List of selected publications</a></li>'
@@ -498,9 +505,208 @@ not_found = (
                                        extra_head='<meta name="robots" content="noindex">'), encoding='utf-8')
 
 # ---------------------------------------------------------------------------
+# Biography pages from the 2023 short bio and the Wikipedia draft
+# ---------------------------------------------------------------------------
+BIO_HEADINGS = {
+    'Institutional assignments',
+    'Technical-scientific consultancy',
+    'Research activity',
+}
+DRAFT_HEADINGS = {
+    'Early life and education', 'Academic career', 'Visiting positions and laboratory consulting',
+    'Research and international standardisation', 'Entrepreneurial and advisory ventures',
+    'Regulatory leadership and public policy', 'Broadband deployment and NRRP',
+    'Educational legacy and CEFRIEL', 'Selected publications', 'Honours and awards',
+    'Chronology', 'References',
+}
+DRAFT_SKIP = {
+    'Year / period',
+    'Academic and institutional career milestones',
+}
+YEAR_LINE = re.compile(r'^\d{4}(?:\s*[–—-]\s*\d{4})?$')
+
+
+def docx_rows(path):
+    xml = zipfile.ZipFile(path).read('word/document.xml').decode('utf-8')
+    rows = []
+    for para in re.findall(r'<w:p[\s>][\s\S]*?</w:p>', xml):
+        bullet = '<w:numPr' in para
+        text = unescape(re.sub(r'<[^>]+>', '', para))
+        text = text.replace('\u00a0', ' ').replace('acted in in ', 'acted in ')
+        text = text.replace('Order of the Order of Merit', 'Order of Merit')
+        text = ' '.join(text.split())
+        if text[:1] in '•·':
+            bullet = True
+            text = text[1:].strip()
+        if text:
+            rows.append((bullet, text))
+    return rows
+
+
+def cite_html(text):
+    return re.sub(r'\[(\d+)\]', lambda m: '<sup><a href="#ref-%s">%s</a></sup>' % (m.group(1), m.group(1)), escape(text))
+
+
+def blocks_from_bio(rows):
+    blocks, items = [], []
+
+    def flush():
+        if items:
+            blocks.append(('items', list(items)))
+            items.clear()
+
+    for bullet, text in rows:
+        if bullet:
+            items.append(text)
+            continue
+        flush()
+        if text in BIO_HEADINGS:
+            blocks.append(('h2', text))
+        elif not blocks:
+            blocks.append(('h1', text))
+        else:
+            blocks.append(('p', text))
+    flush()
+    return blocks
+
+
+def blocks_from_draft(rows):
+    started = False
+    blocks, items, chrono, refs = [], [], [], []
+    mode = 'body'
+
+    def flush_items():
+        if items:
+            blocks.append(('items', list(items)))
+            items.clear()
+
+    for bullet, text in rows:
+        if not started:
+            if text.startswith('Maurizio Dècina (born'):
+                started = True
+                blocks.append(('h1', 'Maurizio Dècina'))
+                blocks.append(('p', text))
+            continue
+        if text in DRAFT_SKIP:
+            continue
+        if text in DRAFT_HEADINGS:
+            flush_items()
+            if mode == 'chrono' and chrono:
+                blocks.append(('chrono', list(chrono)))
+                chrono.clear()
+            if mode == 'refs' and refs:
+                blocks.append(('refs', list(refs)))
+                refs.clear()
+            mode = 'chrono' if text == 'Chronology' else 'refs' if text == 'References' else 'body'
+            blocks.append(('h2', text))
+            continue
+        if mode == 'refs':
+            refs.append(text)
+            continue
+        if mode == 'chrono':
+            if YEAR_LINE.match(text):
+                chrono.append([text, ''])
+            elif chrono:
+                chrono[-1][1] = (chrono[-1][1] + ' ' + text).strip()
+            continue
+        if bullet or (mode == 'body' and text[:4].isdigit() and ' – ' in text[:12]):
+            items.append(text)
+            continue
+        flush_items()
+        blocks.append(('p', text))
+    flush_items()
+    if chrono:
+        blocks.append(('chrono', chrono))
+    if refs:
+        blocks.append(('refs', refs))
+    return blocks
+
+
+def render_blocks(blocks):
+    parts, toc = [], []
+    for kind, payload in blocks:
+        if kind == 'h1':
+            continue
+        elif kind == 'h2':
+            sid = re.sub(r'[^a-z0-9]+', '-', payload.lower()).strip('-')
+            toc.append((sid, payload))
+            parts.append('<h2 class="cv-section" id="' + sid + '">' + escape(payload) + '</h2>')
+        elif kind == 'p':
+            parts.append('<p>' + cite_html(payload) + '</p>')
+        elif kind == 'items':
+            parts.append('<ul class="cv-list">' + ''.join('<li class="cv-plain">' + cite_html(item) + '</li>' for item in payload) + '</ul>')
+        elif kind == 'chrono':
+            parts.append('<ul class="cv-list">' + ''.join(
+                '<li class="cv-plain"><b>' + escape(year) + '.</b> ' + cite_html(detail) + '</li>' for year, detail in payload) + '</ul>')
+        elif kind == 'refs':
+            parts.append('<ol class="ref-list">' + ''.join(
+                '<li id="ref-' + str(i) + '">' + escape(item) + '</li>' for i, item in enumerate(payload, 1)) + '</ol>')
+    return toc, ''.join(parts)
+
+
+def reading_page(filename, title, description, kicker, intro, facts, links, blocks):
+    toc, article = render_blocks(blocks)
+    photo = (
+        '<figure class="cv-head-photo"><picture>'
+        '<source type="image/webp" srcset="./assets/portrait-2022-480.webp 480w, ./assets/portrait-2022.webp 860w" sizes="(min-width: 1024px) 380px, 60vw">'
+        '<img src="./assets/portrait-2022.jpg" srcset="./assets/portrait-2022-480.jpg 480w, ./assets/portrait-2022.jpg 860w" sizes="(min-width: 1024px) 380px, 60vw" width="860" height="860" alt="Maurizio Dècina" decoding="async">'
+        '</picture></figure>'
+    )
+    head = (
+        '<section class="cv-head" data-chrome><div class="wrap cv-head-grid"><div class="cv-head-text">'
+        '<p class="page-kicker">' + escape(kicker) + '</p>'
+        '<h1 class="cv-head-name">Maurizio Dècina</h1>'
+        '<p class="cv-head-role">Professor Emeritus of Telecommunications, Politecnico di Milano</p>'
+        '<p class="cv-head-intro">' + escape(intro) + '</p>'
+        '<dl class="cv-facts">' + ''.join('<div><dt>' + escape(t) + '</dt><dd>' + escape(d) + '</dd></div>' for t, d in facts) + '</dl>'
+        '<p class="cv-head-links">' + ''.join('<a href="' + href + '">' + escape(label) + '</a>' for label, href in links) + '</p>'
+        '</div>' + photo + '</div></section>'
+    )
+    aside = ('<aside class="article-aside" data-chrome><h2>Contents</h2><nav class="toc-nav" data-spy aria-label="Contents">' +
+             ''.join('<a href="#' + sid + '">' + escape(label) + '</a>' for sid, label in toc) + '</nav></aside>')
+    main = ('<main id="main"><span id="top"></span>' + head +
+            '<div class="article-layout has-aside">' + aside +
+            '<article class="source-article cv-article">' + article + '</article></div></main>')
+    (PUBLIC / filename).write_text(shell(
+        title, main, './', 'en', description=description,
+        canonical=SITE_URL + filename, body_class='cv-page'), encoding='utf-8')
+
+
+docs_dir = PUBLIC / 'docs'
+reading_page(
+    'biography-2023.html',
+    'Biography of Maurizio Dècina, 2023 – Maurizio Dècina',
+    'Short English biography of Maurizio Dècina through his 2021–2022 consultancy to the Minister for Technological Innovation and Digital Transition.',
+    'Biography, 2023',
+    'The short English biography, covering the career from the 1966 degree through the consultancy of 2021 to 2022.',
+    [('Born', '1943'),
+     ('Laurea', 'Electronic engineering, University of Rome, 1966'),
+     ('Politecnico di Milano', 'Full professor of telecommunications, 1986 to 2012'),
+     ('Infratel Italia', 'President, 2016 to 2020'),
+     ('Ministry', 'Expert consultant, 2021 to 2022')],
+    [('Curriculum vitae to 2012', './stuff/decinabiography.htm'),
+     ('Fuller draft', './biography-draft.html'),
+     ('Word file', './docs/biography-2023.docx')],
+    blocks_from_bio(docx_rows(docs_dir / 'biography-2023.docx')))
+reading_page(
+    'biography-draft.html',
+    'Biography draft – Maurizio Dècina',
+    'The fuller English biography draft prepared for Wikipedia, with chronology, selected publications and references.',
+    'Biography draft',
+    'The longer English draft prepared for Wikipedia. The draft-review notice is left off this page. The article text follows the document he supplied.',
+    [('Born', '1943'),
+     ('Politecnico di Milano', 'Professor emeritus, appointed 2014'),
+     ('Infratel Italia', 'President, 2016 to 2020'),
+     ('Order of Merit', 'Officer of the Italian Republic, 2023')],
+    [('Short biography, 2023', './biography-2023.html'),
+     ('Curriculum vitae to 2012', './stuff/decinabiography.htm')],
+    blocks_from_draft(docx_rows(next(docs_dir.glob('wikibiodocx.docx')))))
+
+# ---------------------------------------------------------------------------
 # Sitemap
 # ---------------------------------------------------------------------------
-urls = ['', 'teaching.html', 'stuff/decinabiography.htm', 'stuff/decinabiografia.htm', 'stuff/decinapublications.htm']
+urls = ['', 'teaching.html', 'biography-2023.html', 'biography-draft.html',
+        'stuff/decinabiography.htm', 'stuff/decinabiografia.htm', 'stuff/decinapublications.htm']
 (PUBLIC / 'sitemap.xml').write_text(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     ''.join('  <url><loc>' + SITE_URL + u + '</loc></url>\n' for u in urls) + '</urlset>\n', encoding='utf-8')

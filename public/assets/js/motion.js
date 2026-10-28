@@ -203,7 +203,7 @@
      room to move without exposing an edge.
      ---------------------------------------------------------------------- */
   function parallax() {
-    [['.photo-band', 6], ['.quote-band', 5]].forEach(function (pair) {
+    [['.photo-band', 6], ['.quote-band-art', 5]].forEach(function (pair) {
       var band = document.querySelector(pair[0]);
       var img = band && band.querySelector('img');
       if (!img) return;
