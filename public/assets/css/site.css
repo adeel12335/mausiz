@@ -817,36 +817,102 @@ address { font-style: normal; }
 /* --------------------------------------------------------------------------
    Teaching
    -------------------------------------------------------------------------- */
-.photo-band { margin: 0; border-top: 1px solid var(--rule); }
-.photo-band img {
-  width: 100%;
-  height: clamp(280px, 36vw, 520px);
-  object-fit: cover;
-  object-position: center 38%;
+.teaching-feature {
+  padding-block: clamp(64px, 7vw, 104px);
+  overflow: hidden;
+  background: #f6f3ed;
+  border-top: 1px solid rgba(169, 135, 64, .2);
 }
-.photo-band figcaption {
-  max-width: var(--max);
-  margin-inline: auto;
-  padding: 14px var(--gutter) 0;
-  font: 14px/1.45 var(--sans);
-  color: var(--slate);
-}
-.section-after-photo { border-top: 0; padding-top: clamp(40px, 5vw, 72px); }
-
-.teach-band { padding-block: clamp(48px, 5vw, 64px); }
-.teach-grid {
+.teaching-head {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, .95fr) minmax(0, 1.05fr);
-  gap: 48px;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, .8fr);
+  gap: clamp(40px, 8vw, 120px);
+  align-items: end;
+  margin-bottom: clamp(40px, 5vw, 64px);
 }
-.teach-intro .section-title { margin-bottom: 16px; font-weight: 700; }
-.teach-lede {
-  max-width: 30em;
-  margin: 0 0 28px;
+.teaching-head .eyebrow { margin-bottom: 14px; color: var(--gold-deep); }
+.teaching-head .section-title {
+  max-width: 13em;
+  margin: 0;
+  font-size: clamp(38px, 4.2vw, 62px);
+}
+.teaching-summary {
+  padding-left: 28px;
+  border-left: 1px solid var(--gold);
+}
+.teaching-summary p {
+  max-width: 34em;
+  margin: 0 0 24px;
   font-size: 18px;
   line-height: 1.6;
   color: var(--slate);
 }
+.teaching-stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(340px, .8fr);
+  min-height: 600px;
+  background: var(--navy-deep);
+  box-shadow: 0 28px 70px -48px rgba(14, 28, 48, .65);
+}
+.teaching-photo {
+  position: relative;
+  min-width: 0;
+  min-height: 600px;
+  margin: 0;
+  overflow: hidden;
+}
+.teaching-photo picture,
+.teaching-photo img { display: block; width: 100%; height: 100%; }
+.teaching-photo img {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  object-position: center 38%;
+  transition: transform .8s var(--ease-out);
+}
+.teaching-photo::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 42%;
+  background: linear-gradient(180deg, transparent, rgba(8, 21, 37, .8));
+  pointer-events: none;
+}
+.teaching-photo:hover img { transform: scale(1.025); }
+.teaching-photo figcaption {
+  position: absolute;
+  left: clamp(24px, 4vw, 56px);
+  right: clamp(24px, 4vw, 56px);
+  bottom: clamp(24px, 4vw, 46px);
+  z-index: 1;
+  font: 500 16px/1.5 var(--sans);
+  color: #fff;
+}
+.teaching-photo figcaption span {
+  display: block;
+  margin-bottom: 7px;
+  font: 600 11px/1.3 var(--sans);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #d7bd82;
+}
+.teaching-archive {
+  display: flex;
+  flex-direction: column;
+  padding: clamp(34px, 4.5vw, 64px);
+  color: #fff;
+}
+.teaching-archive-head { margin-bottom: 22px; }
+.teaching-archive .eyebrow {
+  margin-bottom: 10px;
+  color: #d7bd82;
+}
+.teaching-archive h3,
+.teaching-gallery h3 {
+  margin: 0;
+  font: 600 clamp(24px, 2.1vw, 32px)/1.2 var(--serif);
+}
+.teaching-archive h3 { color: #fff; }
 .teach-more {
   display: inline-flex;
   align-items: center;
@@ -857,72 +923,103 @@ address { font-style: normal; }
 .teach-more-gold { color: var(--gold-deep); }
 .teach-more svg { transition: transform .2s ease; }
 .teach-more:hover svg { transform: translateX(3px); }
-.teach-col {
-  padding-left: 48px;
-  border-left: 1px solid var(--rule);
-}
-.teach-col h3 {
-  margin: 0 0 18px;
-  font: 600 18px/1.3 var(--serif);
-  color: var(--navy);
-}
 .teach-courses { list-style: none; margin: 0; padding: 0; }
 .teach-courses a {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 14px;
-  gap: 14px;
+  grid-template-columns: 62px minmax(0, 1fr) 14px;
+  gap: 16px;
   align-items: center;
-  padding: 11px 0;
-  border-bottom: 1px solid var(--rule);
+  min-height: 70px;
+  padding: 13px 0;
+  border-top: 1px solid rgba(215, 223, 232, .2);
   font: 400 15px/1.4 var(--sans);
+  color: #edf3f9;
 }
-.teach-courses a:hover { text-decoration: none; }
-.teach-courses a:hover .tc-name { color: var(--navy); text-decoration: underline; }
-.teach-courses svg { color: var(--gold); }
-.teach-col:has(.teach-gallery) {
+.teach-courses li:last-child a { border-bottom: 1px solid rgba(215, 223, 232, .2); }
+.teach-courses a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.teach-courses a:hover .tc-name { transform: translateX(4px); }
+.teach-courses .tc-year {
+  font: 600 12px/1.3 var(--sans);
+  letter-spacing: .08em;
+  color: #d7bd82;
+}
+.teach-courses .tc-name { transition: transform .2s ease; }
+.teach-courses svg { color: #d7bd82; }
+.teaching-gallery {
+  margin-top: clamp(50px, 6vw, 80px);
+}
+.teaching-gallery-head {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: end;
+  margin-bottom: 24px;
 }
+.teaching-gallery-head .eyebrow { margin-bottom: 8px; color: var(--gold-deep); }
+.teaching-gallery h3 { color: var(--navy); }
+.teaching-gallery .teach-more { flex: none; margin-bottom: 4px; }
 .teach-gallery {
   list-style: none;
   margin: 0;
   padding: 0;
-  flex: 1;
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px;
-  min-height: 240px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
-.teach-gallery li:first-child { grid-row: span 2; }
-.teach-gallery li,
-.teach-gallery a { display: block; height: 100%; min-height: 0; }
+.teach-gallery a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: var(--navy-deep);
+}
 .teach-gallery img {
+  display: block;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  object-position: center 40%;
-  border-radius: var(--radius);
-  transition: opacity .2s ease;
+  object-position: center 55%;
+  transition: transform .6s var(--ease-out), opacity .35s ease;
 }
-.teach-col:has(.teach-gallery) .teach-more { margin-top: 18px; }
-.teach-gallery a:hover img { opacity: .88; }
+.teach-gallery a::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 46%;
+  background: linear-gradient(180deg, transparent, rgba(8, 21, 37, .8));
+  pointer-events: none;
+}
+.teach-gallery span {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 17px;
+  z-index: 1;
+  font: 500 14px/1.4 var(--sans);
+  color: #fff;
+}
+.teach-gallery a:hover img {
+  opacity: .9;
+  transform: scale(1.035);
+}
 @media (max-width: 1023px) {
-  .teach-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
-  .teach-intro { grid-column: 1 / -1; }
-  .teach-col { padding-left: 32px; }
-  .teach-intro + .teach-col { padding-left: 0; border-left: 0; }
+  .teaching-head { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .teaching-summary { padding-left: 0; border-left: 0; }
+  .teaching-stage { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .teaching-photo { min-height: 0; aspect-ratio: 16 / 10; }
+  .teaching-archive { padding: 40px; }
 }
-@media (max-width: 640px) {
-  .teach-grid { grid-template-columns: minmax(0, 1fr); }
-  .teach-col { padding-left: 0; border-left: 0; }
-  .teach-gallery {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-template-rows: auto;
-    min-height: 0;
-  }
-  .teach-gallery li:first-child { grid-row: auto; }
-  .teach-gallery img { height: auto; aspect-ratio: 4 / 3; }
+@media (max-width: 700px) {
+  .teaching-feature { padding-block: 52px; }
+  .teaching-head .section-title { font-size: clamp(34px, 10vw, 48px); }
+  .teaching-photo { aspect-ratio: 4 / 3; }
+  .teaching-archive { padding: 30px 24px; }
+  .teach-courses a { grid-template-columns: 56px minmax(0, 1fr) 14px; gap: 10px; }
+  .teaching-gallery-head { align-items: start; flex-direction: column; gap: 16px; }
+  .teach-gallery { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .teach-gallery img { aspect-ratio: 16 / 10; }
 }
 
 /* --------------------------------------------------------------------------
