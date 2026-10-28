@@ -820,14 +820,14 @@ address { font-style: normal; }
 .photo-band { margin: 0; border-top: 1px solid var(--rule); }
 .photo-band img {
   width: 100%;
-  height: clamp(240px, 30vw, 460px);
+  height: clamp(280px, 36vw, 520px);
   object-fit: cover;
-  object-position: 50% 80%;
+  object-position: center 38%;
 }
 .photo-band figcaption {
   max-width: var(--max);
   margin-inline: auto;
-  padding: 12px var(--gutter) 0;
+  padding: 14px var(--gutter) 0;
   font: 14px/1.45 var(--sans);
   color: var(--slate);
 }
@@ -879,22 +879,33 @@ address { font-style: normal; }
 .teach-courses a:hover { text-decoration: none; }
 .teach-courses a:hover .tc-name { color: var(--navy); text-decoration: underline; }
 .teach-courses svg { color: var(--gold); }
+.teach-col:has(.teach-gallery) {
+  display: flex;
+  flex-direction: column;
+}
 .teach-gallery {
   list-style: none;
-  margin: 0 0 22px;
+  margin: 0;
   padding: 0;
+  flex: 1;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1.4fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
+  min-height: 240px;
 }
-.teach-gallery a { display: block; }
+.teach-gallery li:first-child { grid-row: span 2; }
+.teach-gallery li,
+.teach-gallery a { display: block; height: 100%; min-height: 0; }
 .teach-gallery img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 100%;
   object-fit: cover;
+  object-position: center 40%;
   border-radius: var(--radius);
   transition: opacity .2s ease;
 }
+.teach-col:has(.teach-gallery) .teach-more { margin-top: 18px; }
 .teach-gallery a:hover img { opacity: .88; }
 @media (max-width: 1023px) {
   .teach-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
@@ -905,6 +916,13 @@ address { font-style: normal; }
 @media (max-width: 640px) {
   .teach-grid { grid-template-columns: minmax(0, 1fr); }
   .teach-col { padding-left: 0; border-left: 0; }
+  .teach-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: auto;
+    min-height: 0;
+  }
+  .teach-gallery li:first-child { grid-row: auto; }
+  .teach-gallery img { height: auto; aspect-ratio: 4 / 3; }
 }
 
 /* --------------------------------------------------------------------------
